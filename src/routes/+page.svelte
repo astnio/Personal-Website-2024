@@ -8,8 +8,12 @@
 	</div>
 	<div class="flex flex-col my-auto">
 		<h1 class=" text-4xl">Hello, I am Austin Hagel</h1>
-		<p>Web Developer | Digital Designer</p>
-		<div class="mt-8">
+		<div class="flex gap-8 mt-1">
+			<p>Web Developer | Digital Designer</p>
+			<a href="mailto:hello@msg.austinh.io">Contact Me</a>
+		</div>
+
+		<div class="mt-4">
 			<ul class="flex gap-2">
 				<li>
 					<a href="https://i.austinh.io/github/">GitHub</a>
@@ -25,7 +29,6 @@
 				</li>
 			</ul>
 		</div>
-		<a class="mt-8" href="mailto:hello@msg.austinh.io">Contact</a>
 	</div>
 </div>
 
