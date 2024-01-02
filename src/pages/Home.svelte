@@ -1,5 +1,5 @@
 <script>
-	import Links from '../lib/Links.svelte';
+	import Links from '$lib/Links.svelte';
 </script>
 
 <div class="flex items-center justify-center max-w-screen-lg p-4 mx-auto my-auto h-full">

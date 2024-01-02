@@ -5,7 +5,7 @@
 	import Home from '../pages/Home.svelte';
 	import { onMount } from 'svelte';
 	import Navigation from '$lib/Navigation/Navigation.svelte';
-	import Logo from '$lib/Logo.svelte';
+	import Logo from '$lib/Logo/Logo.svelte';
 
 	onMount(() => {
 		const prefersDark =
