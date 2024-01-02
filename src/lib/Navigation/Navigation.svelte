@@ -9,7 +9,7 @@
 	}
 </script>
 
-<nav class="list-nav p-4 h-full">
+<nav class="list-nav p-4 flex flex-col flex-grow">
 	<ul class="flex flex-col md:flex-row items-baseline h-full md:h-auto">
 		<li class="w-full md:w-auto">
 			<a href="/" on:click={drawerClose} class="flex items-center justify-center w-full">Home</a>
