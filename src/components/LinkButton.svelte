@@ -2,12 +2,16 @@
 	export let linkTitle: string;
 	export let linkUrl: string;
 	export let iconClass: string;
+	export let buttonClass: string = '';
 	export let newTab: boolean = true;
+	export let buttonVariant: string = 'soft';
 </script>
 
-<a href={linkUrl} target={newTab ? '_blank' : ''}>
-	<button type="button" class="btn variant-soft">
-		<span class={iconClass}></span>
-		<span>{linkTitle}</span>
-	</button>
+<a
+	href={linkUrl}
+	target={newTab ? '_blank' : ''}
+	class={`btn variant-${buttonVariant} ${buttonClass}`}
+>
+	<span class={iconClass}></span>
+	<span>{linkTitle}</span>
 </a>
