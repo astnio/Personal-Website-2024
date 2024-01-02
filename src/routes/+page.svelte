@@ -23,13 +23,13 @@
 	}
 </script>
 
-<Drawer position="right">
+<Drawer position="right" width="w-64">
 	<h2 class="p-4">Navigation</h2>
 	<hr />
 	<Navigation />
 </Drawer>
 
-<AppShell slotSidebarRight="bg-surface-500/5 w-0 lg:w-64">
+<AppShell slotSidebarRight="bg-surface-500/5">
 	<svelte:fragment slot="header">
 		<AppBar>
 			<svelte:fragment slot="lead">
