@@ -4,13 +4,21 @@
 	import NavBar from '../components/NavBar.svelte';
 	import { AppShell } from '@skeletonlabs/skeleton';
 	import Home from '../pages/Home.svelte';
+	import LinkButton from '../components/LinkButton.svelte';
 </script>
 
 <AppShell>
 	<svelte:fragment slot="header">
 		<AppBar>
 			<svelte:fragment slot="lead">(icon)</svelte:fragment>
-			<svelte:fragment slot="trail">(actions)</svelte:fragment>
+			<svelte:fragment slot="trail">
+				<LinkButton
+					linkTitle="Contact me"
+					linkUrl="mailto:hello@msg.austinh.io"
+					iconClass="bx bxs-envelope"
+					newTab="false"
+				></LinkButton>
+			</svelte:fragment>
 			<svelte:fragment slot="headline">Austin H.</svelte:fragment>
 		</AppBar>
 	</svelte:fragment>
