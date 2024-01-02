@@ -7,21 +7,46 @@
 	function drawerClose(): void {
 		drawerStore.close();
 	}
+
+	function scrollToSection(event: MouseEvent, sectionId: string): void {
+		event.preventDefault();
+		const section = document.getElementById(sectionId);
+		if (!section) {
+			console.warn(`Section with id ${sectionId} not found`);
+		} else section.scrollIntoView({ behavior: 'smooth' });
+	}
 </script>
 
 <nav class="list-nav p-4 flex flex-col flex-grow">
 	<ul class="flex flex-col md:flex-row items-baseline h-full md:h-auto">
 		<li class="w-full md:w-auto">
-			<a href="/" on:click={drawerClose} class="flex items-center justify-center w-full">Home</a>
-		</li>
-		<li class="w-full md:w-auto">
-			<a href="/about" on:click={drawerClose} class="flex items-center justify-center w-full"
-				>About</a
+			<a
+				href="#home"
+				on:click|preventDefault={(event) => {
+					scrollToSection(event, 'home');
+					drawerClose();
+				}}
+				class="flex items-center justify-center w-full">Home</a
 			>
 		</li>
 		<li class="w-full md:w-auto">
-			<a href="/projects" on:click={drawerClose} class="flex items-center justify-center w-full"
-				>Projects</a
+			<a
+				href="#about"
+				on:click|preventDefault={(event) => {
+					scrollToSection(event, 'about');
+					drawerClose();
+				}}
+				class="flex items-center justify-center w-full">About</a
+			>
+		</li>
+		<li class="w-full md:w-auto">
+			<a
+				href="/projects"
+				on:click|preventDefault={(event) => {
+					scrollToSection(event, 'projects');
+					drawerClose();
+				}}
+				class="flex items-center justify-center w-full">Projects</a
 			>
 		</li>
 		<li class="w-full md:w-auto" style="margin-top: auto;">

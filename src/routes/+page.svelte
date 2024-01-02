@@ -7,6 +7,7 @@
 	import Navigation from '$lib/Navigation/Navigation.svelte';
 	import Logo from '$lib/Logo/Logo.svelte';
 	import About from '../pages/About.svelte';
+	import Projects from '../pages/Projects.svelte';
 
 	onMount(() => {
 		const prefersDark =
@@ -41,7 +42,7 @@
 <AppShell slotSidebarRight="bg-surface-500/5">
 	<svelte:fragment slot="header">
 		<div class="flex items-center justify-center w-full bg-surface-500/5">
-			<div class="flex items-center justify-between mx-auto w-full max-w-screen-md">
+			<div class="flex items-center justify-between mx-auto w-full max-w-screen-lg">
 				<Logo />
 				<div class="hidden md:flex">
 					<Navigation />
@@ -56,8 +57,9 @@
 	</svelte:fragment>
 	<Home />
 	<About />
+	<Projects />
 	<svelte:fragment slot="footer">
-		<div class="max-w-screen-md w-full flex items-center justify-between mx-auto p-4">
+		<div class="max-w-screen-lg w-full flex items-center justify-between mx-auto p-4">
 			<p>&copy; 2021-{new Date().getFullYear()} Austin Hagel</p>
 			<LightSwitch />
 		</div>

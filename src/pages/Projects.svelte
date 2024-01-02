@@ -1,5 +1,5 @@
-<section id="about" class="flex flex-col max-w-screen-lg mx-auto p-4 h-[100svh]">
-	<h2 class="text-4xl">About</h2>
+<section id="projects" class="flex flex-col max-w-screen-lg mx-auto p-4 h-[100svh]">
+	<h2 class="text-4xl">Projects</h2>
 	<hr class="my-2" />
 	<p>
 		Lorem ipsum dolor sit amet consectetur, adipisicing elit. Blanditiis officiis voluptatum ut!

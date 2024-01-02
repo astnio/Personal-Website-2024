@@ -12,6 +12,7 @@ export default {
 	theme: {
 		extend: {}
 	},
+	variants: {},
 	plugins: [
 		skeleton({
 			themes: { preset: ['wintry'] }
