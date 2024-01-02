@@ -9,6 +9,8 @@
 	import About from '../pages/About.svelte';
 	import Projects from '../pages/Projects/Projects.svelte';
 
+	let theme;
+
 	onMount(() => {
 		const prefersDark =
 			window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches;

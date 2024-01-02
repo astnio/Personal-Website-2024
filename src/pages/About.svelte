@@ -1,3 +1,20 @@
+<script lang="ts">
+	import { onMount } from 'svelte';
+
+	let theme: string;
+	function handleThemeSwitched(event) {
+		theme = event.detail;
+	}
+
+	onMount(() => {
+		const script = document.createElement('script');
+		script.src = 'https://platform.linkedin.com/badges/js/profile.js';
+		script.async = true;
+		script.defer = true;
+		document.body.appendChild(script);
+	});
+</script>
+
 <section
 	id="about"
 	class="flex flex-col max-w-screen-lg mx-auto justify-center pb-60 p-4 h-[100svh]"
@@ -32,5 +49,19 @@
 			If you're looking for someone who's passionate about web design and development and loves to
 			learn and create, let's get in touch!
 		</p>
+	</div>
+	<div
+		class="badge-base LI-profile-badge mt-8"
+		data-locale="en_US"
+		data-size="large"
+		data-theme={theme === 'light' ? 'light' : 'dark'}
+		data-type="HORIZONTAL"
+		data-vanity="austinhagel"
+		data-version="v1"
+	>
+		<a
+			class="badge-base__link LI-simple-link"
+			href="https://www.linkedin.com/in/austinhagel?trk=profile-badge">Austin H.</a
+		>
 	</div>
 </section>
