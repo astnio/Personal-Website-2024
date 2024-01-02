@@ -5,6 +5,14 @@
 	import { AppShell } from '@skeletonlabs/skeleton';
 	import Home from '../pages/Home.svelte';
 	import LinkButton from '../components/LinkButton.svelte';
+	import { onMount } from 'svelte';
+
+	onMount(() => {
+		const prefersDark =
+			window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches;
+		const theme = prefersDark ? 'dark' : 'light';
+		document.documentElement.setAttribute('data-theme', theme);
+	});
 </script>
 
 <AppShell>
