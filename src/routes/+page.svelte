@@ -7,7 +7,7 @@
 	import Navigation from '$lib/Navigation/Navigation.svelte';
 	import Logo from '$lib/Logo/Logo.svelte';
 	import About from '../pages/About.svelte';
-	import Projects from '../pages/Projects.svelte';
+	import Projects from '../pages/Projects/Projects.svelte';
 
 	onMount(() => {
 		const prefersDark =
