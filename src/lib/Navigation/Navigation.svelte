@@ -5,7 +5,7 @@
 	const drawerStore = getDrawerStore();
 
 	function drawerClose(): void {
-		drawerStore.close({});
+		drawerStore.close();
 	}
 </script>
 
