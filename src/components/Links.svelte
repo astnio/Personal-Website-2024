@@ -4,27 +4,17 @@
 
 <ul class="flex gap-2">
 	<li>
-		<LinkButton
-			linkTitle="GitHub"
-			linkUrl="https://i.austinh.io/github/"
-			iconClass="bx bxl-github"
-		/>
+		<LinkButton linkUrl="https://i.austinh.io/github/" iconClass="bx bxl-github">GitHub</LinkButton>
 	</li>
 	<li>
-		<LinkButton
-			linkTitle="LinkedIn"
-			linkUrl="https://i.austinh.io/linkedin/"
-			iconClass="bx bxl-linkedin"
-		/>
+		<LinkButton linkUrl="https://i.austinh.io/linkedin/" iconClass="bx bxl-linkedin">
+			LinkedIn
+		</LinkButton>
 	</li>
 	<li>
-		<LinkButton
-			linkTitle="Demos"
-			linkUrl="https://projects.austinh.io/"
-			iconClass="bx bx-code-alt"
-		/>
+		<LinkButton linkUrl="https://projects.austinh.io/" iconClass="bx bx-code-alt">Demos</LinkButton>
 	</li>
 	<li>
-		<LinkButton linkTitle="Blog" linkUrl="https://byaustin.net/" iconClass="bx bx-book-content" />
+		<LinkButton linkUrl="https://byaustin.net/" iconClass="bx bx-book-content">Blog</LinkButton>
 	</li>
 </ul>

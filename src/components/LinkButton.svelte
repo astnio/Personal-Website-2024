@@ -1,5 +1,4 @@
 <script lang="ts">
-	export let linkTitle: string;
 	export let linkUrl: string;
 	export let iconClass: string;
 	export let buttonClass: string = '';
@@ -13,5 +12,5 @@
 	class={`btn variant-${buttonVariant} ${buttonClass}`}
 >
 	<span class={iconClass}></span>
-	<span>{linkTitle}</span>
+	<span><slot /></span>
 </a>

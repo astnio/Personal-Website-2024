@@ -13,11 +13,14 @@
 			<svelte:fragment slot="lead">(icon)</svelte:fragment>
 			<svelte:fragment slot="trail">
 				<LinkButton
-					linkTitle="Contact me"
 					linkUrl="mailto:hello@msg.austinh.io"
 					iconClass="bx bxs-envelope"
 					newTab={false}
-				></LinkButton>
+					buttonVariant="filled"
+					buttonClass="btn-sm"
+				>
+					<span class="font-bold relative bottom-[0.1rem]">Contact</span>
+				</LinkButton>
 			</svelte:fragment>
 			<svelte:fragment slot="headline">Austin H.</svelte:fragment>
 		</AppBar>
