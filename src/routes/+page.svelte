@@ -16,7 +16,7 @@
 					linkTitle="Contact me"
 					linkUrl="mailto:hello@msg.austinh.io"
 					iconClass="bx bxs-envelope"
-					newTab="false"
+					newTab={false}
 				></LinkButton>
 			</svelte:fragment>
 			<svelte:fragment slot="headline">Austin H.</svelte:fragment>
