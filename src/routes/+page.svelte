@@ -24,7 +24,7 @@
 </script>
 
 <Drawer position="right" width="w-64">
-	<h2 class="p-4">Navigation</h2>
+	<h2 class="p-4 cursor-default">Navigation</h2>
 	<hr />
 	<Navigation />
 </Drawer>

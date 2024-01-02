@@ -10,17 +10,23 @@
 
 <nav class="list-nav p-4">
 	<ul class="flex flex-col lg:flex-row items-baseline">
-		<li>
-			<a href="/" on:click={drawerClose}>Home</a>
+		<li class="w-full">
+			<a href="/" on:click={drawerClose} class="flex items-center justify-center w-full">Home</a>
 		</li>
-		<li>
-			<a href="/about" on:click={drawerClose}>About</a>
+		<li class="w-full">
+			<a href="/about" on:click={drawerClose} class="flex items-center justify-center w-full"
+				>About</a
+			>
 		</li>
-		<li>
-			<a href="/projects" on:click={drawerClose}>Projects</a>
+		<li class="w-full">
+			<a href="/projects" on:click={drawerClose} class="flex items-center justify-center w-full"
+				>Projects</a
+			>
 		</li>
-		<li>
-			<a href="/contact" on:click={drawerClose}>Contact</a>
+		<li class="w-full">
+			<a href="/contact" on:click={drawerClose} class="flex items-center justify-center w-full"
+				>Contact</a
+			>
 		</li>
 	</ul>
 </nav>
