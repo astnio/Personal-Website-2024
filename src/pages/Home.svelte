@@ -4,7 +4,7 @@
 
 <section
 	id="home"
-	class="flex items-center justify-center max-w-screen-lg p-4 mx-auto my-auto h-[100svh]"
+	class="flex items-center justify-center max-w-screen-lg p-4 pb-60 mx-auto my-auto h-[100svh]"
 >
 	<div class="flex flex-col">
 		<h1 class="sm:text-4xl text-2xl font-semibold">Hello, I am Austin Hagel</h1>
