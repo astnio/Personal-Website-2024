@@ -28,9 +28,3 @@
 		<LinkButton linkTitle="Blog" linkUrl="https://byaustin.net/" iconClass="bx bx-book-content" />
 	</li>
 </ul>
-
-<style>
-	a {
-		text-decoration: underline;
-	}
-</style>
