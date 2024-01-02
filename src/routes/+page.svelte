@@ -32,10 +32,12 @@
 <AppShell slotSidebarRight="bg-surface-500/5 w-0 lg:w-64">
 	<AppBar>
 		<svelte:fragment slot="lead">
-			<!-- <NavBar /> -->
 			<Logo />
 		</svelte:fragment>
 		<svelte:fragment slot="trail">
+			<div class="hidden lg:flex">
+				<Navigation />
+			</div>
 			<div class="flex items-center">
 				<button class="lg:hidden btn btn-sm mr-4" on:click={drawerOpen}>
 					<span>
@@ -49,13 +51,6 @@
 			</div>
 		</svelte:fragment>
 	</AppBar>
-
-	<svelte:fragment slot="sidebarRight">
-		<Navigation />
-	</svelte:fragment>
-	<!-- <svelte:fragment slot="header">
-		<NavBar />
-	</svelte:fragment> -->
 	<Home />
 	<svelte:fragment slot="footer">
 		<div class="max-w-screen-lg w-full flex items-center justify-between mx-auto p-4">

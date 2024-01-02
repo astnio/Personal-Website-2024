@@ -9,7 +9,7 @@
 </script>
 
 <nav class="list-nav p-4">
-	<ul>
+	<ul class="flex flex-col lg:flex-row items-baseline justify-center">
 		<li>
 			<a href="/" on:click={drawerClose}>Home</a>
 		</li>
