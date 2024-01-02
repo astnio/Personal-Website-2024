@@ -18,10 +18,3 @@
 		<LinkButton linkUrl="https://byaustin.net/" iconClass="bx bx-book-content">Blog</LinkButton>
 	</li>
 </ul>
-
-<!-- <style>
-	li {
-		display: flex;
-		width: 100%;
-	}
-</style> -->
