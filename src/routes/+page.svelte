@@ -6,7 +6,7 @@
 	import { onMount } from 'svelte';
 	import Navigation from '$lib/Navigation/Navigation.svelte';
 	import Logo from '$lib/Logo/Logo.svelte';
-	import About from '../pages/About.svelte';
+	import About from '../pages/About/About.svelte';
 	import Projects from '../pages/Projects/Projects.svelte';
 
 	let theme;
