@@ -1,21 +1,24 @@
 <script>
-	import { LightSwitch } from '@skeletonlabs/skeleton';
+	import { AppBar, LightSwitch } from '@skeletonlabs/skeleton';
 	import Links from '../components/Links.svelte';
 	import NavBar from '../components/NavBar.svelte';
+	import { AppShell } from '@skeletonlabs/skeleton';
+	import Home from '../pages/Home.svelte';
 </script>
 
-<NavBar />
-<div class="flex flex-col items-center justify-center w-full h-[100svh]">
-	<div class="flex items-center justify-center mt-6 mr-6 ml-auto">
-		<LightSwitch />
-	</div>
-	<div class="flex flex-col my-auto">
-		<h1 class=" text-4xl">Hello, I am Austin Hagel</h1>
-		<div class="flex gap-8 mt-1">
-			<p>Web Developer | Digital Designer</p>
-			<a href="mailto:hello@msg.austinh.io">Contact Me</a>
+<AppShell>
+	<svelte:fragment slot="header">
+		<AppBar>
+			<svelte:fragment slot="lead">(icon)</svelte:fragment>
+			<svelte:fragment slot="trail">(actions)</svelte:fragment>
+			<svelte:fragment slot="headline">Austin H.</svelte:fragment>
+		</AppBar>
+	</svelte:fragment>
+	<Home />
+	<svelte:fragment slot="footer">
+		<div class="flex justify-between p-4">
+			<p>&copy; Austin Hagel 2021 - {new Date().getFullYear()}</p>
+			<LightSwitch />
 		</div>
-		<Links />
-		<div class="mt-4"></div>
-	</div>
-</div>
+	</svelte:fragment>
+</AppShell>

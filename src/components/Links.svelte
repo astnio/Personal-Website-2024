@@ -1,19 +1,31 @@
 <script>
-	import { LightSwitch } from '@skeletonlabs/skeleton';
+	import LinkButton from './LinkButton.svelte';
 </script>
 
 <ul class="flex gap-2">
 	<li>
-		<a href="https://i.austinh.io/github/">GitHub</a>
+		<LinkButton
+			linkTitle="GitHub"
+			linkUrl="https://i.austinh.io/github/"
+			iconClass="bx bxl-github"
+		/>
 	</li>
 	<li>
-		<a href="https://i.austinh.io/linkedin/">LinkedIn</a>
+		<LinkButton
+			linkTitle="LinkedIn"
+			linkUrl="https://i.austinh.io/linkedin/"
+			iconClass="bx bxl-linkedin"
+		/>
 	</li>
 	<li>
-		<a href="https://projects.austinh.io/">Demos</a>
+		<LinkButton
+			linkTitle="Demos"
+			linkUrl="https://projects.austinh.io/"
+			iconClass="bx bx-code-alt"
+		/>
 	</li>
 	<li>
-		<a href="https://byaustin.net/">Blog</a>
+		<LinkButton linkTitle="Blog" linkUrl="https://byaustin.net/" iconClass="bx bx-book-content" />
 	</li>
 </ul>
 
