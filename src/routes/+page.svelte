@@ -10,7 +10,7 @@
 <AppShell>
 	<svelte:fragment slot="header">
 		<AppBar>
-			<svelte:fragment slot="lead">(icon)</svelte:fragment>
+			<svelte:fragment slot="lead">Austin Hagel</svelte:fragment>
 			<svelte:fragment slot="trail">
 				<LinkButton
 					linkUrl="mailto:hello@msg.austinh.io"
@@ -22,7 +22,7 @@
 					<span class="font-bold relative bottom-[0.1rem]">Contact</span>
 				</LinkButton>
 			</svelte:fragment>
-			<svelte:fragment slot="headline">Austin H.</svelte:fragment>
+			<!-- <svelte:fragment slot="headline">Austin H.</svelte:fragment> -->
 		</AppBar>
 	</svelte:fragment>
 	<Home />
