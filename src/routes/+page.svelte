@@ -22,7 +22,6 @@
 					<span class="font-bold relative bottom-[0.1rem]">Contact</span>
 				</LinkButton>
 			</svelte:fragment>
-			<!-- <svelte:fragment slot="headline">Austin H.</svelte:fragment> -->
 		</AppBar>
 	</svelte:fragment>
 	<Home />

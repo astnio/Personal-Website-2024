@@ -9,7 +9,7 @@
 <a
 	href={linkUrl}
 	target={newTab ? '_blank' : ''}
-	class={`btn variant-${buttonVariant} ${buttonClass}`}
+	class={`btn variant-${buttonVariant} ${buttonClass} w-full sm:w-auto`}
 >
 	<span class={iconClass}></span>
 	<span><slot /></span>
