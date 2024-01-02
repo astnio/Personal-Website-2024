@@ -1,7 +1,10 @@
 <script>
 	import { LightSwitch } from '@skeletonlabs/skeleton';
+	import Links from '../components/Links.svelte';
+	import NavBar from '../components/NavBar.svelte';
 </script>
 
+<NavBar />
 <div class="flex flex-col items-center justify-center w-full h-[100svh]">
 	<div class="flex items-center justify-center mt-6 mr-6 ml-auto">
 		<LightSwitch />
@@ -12,28 +15,7 @@
 			<p>Web Developer | Digital Designer</p>
 			<a href="mailto:hello@msg.austinh.io">Contact Me</a>
 		</div>
-
-		<div class="mt-4">
-			<ul class="flex gap-2">
-				<li>
-					<a href="https://i.austinh.io/github/">GitHub</a>
-				</li>
-				<li>
-					<a href="https://i.austinh.io/linkedin/">LinkedIn</a>
-				</li>
-				<li>
-					<a href="https://projects.austinh.io/">Demos</a>
-				</li>
-				<li>
-					<a href="https://byaustin.net/">Blog</a>
-				</li>
-			</ul>
-		</div>
+		<Links />
+		<div class="mt-4"></div>
 	</div>
 </div>
-
-<style>
-	a {
-		text-decoration: underline;
-	}
-</style>
