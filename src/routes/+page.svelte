@@ -1,6 +1,6 @@
 <script>
 	import { LightSwitch } from '@skeletonlabs/skeleton';
-	import NavBar from '../components/NavBar.svelte';
+	import NavBar from '../lib/components/NavBar.svelte';
 	import { AppShell } from '@skeletonlabs/skeleton';
 	import Home from '../pages/Home.svelte';
 	import { onMount } from 'svelte';
@@ -13,7 +13,10 @@
 	});
 </script>
 
-<AppShell>
+<AppShell slotSidebarRight="bg-surface-500/5 w-56 p-4">
+	<svelte:fragment slot="sidebarRight">
+		<p>Sidebar</p>
+	</svelte:fragment>
 	<svelte:fragment slot="header">
 		<NavBar />
 	</svelte:fragment>

@@ -4,12 +4,12 @@
 </script>
 
 <div class="w-full p-4 dark:bg-surface-800 bg-surface-100">
-	<div class="max-w-screen-lg w-full flex items-center justify-between mx-auto">
+	<nav class="max-w-screen-lg w-full flex items-center justify-between mx-auto">
 		<Logo />
 		<div>
 			<ul class="flex items-center justify-center gap-4">
-				<li><a href="/">About</a></li>
-				<li><a href="/">Projects</a></li>
+				<li><a class="anchor" href="/">About</a></li>
+				<li><a class="anchor" href="/">Projects</a></li>
 				<li>
 					<LinkButton
 						linkUrl="mailto:hello@msg.austinh.io"
@@ -23,5 +23,5 @@
 				</li>
 			</ul>
 		</div>
-	</div>
+	</nav>
 </div>
