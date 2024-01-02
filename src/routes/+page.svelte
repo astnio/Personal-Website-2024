@@ -6,6 +6,7 @@
 	import { onMount } from 'svelte';
 	import Navigation from '$lib/Navigation/Navigation.svelte';
 	import Logo from '$lib/Logo/Logo.svelte';
+	import About from '../pages/About.svelte';
 
 	onMount(() => {
 		const prefersDark =
@@ -54,6 +55,7 @@
 		</div>
 	</svelte:fragment>
 	<Home />
+	<About />
 	<svelte:fragment slot="footer">
 		<div class="max-w-screen-md w-full flex items-center justify-between mx-auto p-4">
 			<p>&copy; 2021-{new Date().getFullYear()} Austin Hagel</p>
