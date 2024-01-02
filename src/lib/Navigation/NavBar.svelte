@@ -3,7 +3,7 @@
 	import Logo from '../Logo.svelte';
 </script>
 
-<div class="w-full p-4 dark:bg-surface-800 bg-surface-100">
+<div class="w-full p-4 bg-surface-800/100">
 	<nav class="max-w-screen-lg w-full flex items-center justify-between mx-auto">
 		<Logo />
 		<div>

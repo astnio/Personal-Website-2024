@@ -30,27 +30,23 @@
 </Drawer>
 
 <AppShell slotSidebarRight="bg-surface-500/5 w-0 lg:w-64">
-	<AppBar>
-		<svelte:fragment slot="lead">
-			<Logo />
-		</svelte:fragment>
-		<svelte:fragment slot="trail">
-			<div class="hidden lg:flex">
-				<Navigation />
-			</div>
-			<div class="flex items-center">
-				<button class="lg:hidden btn btn-sm mr-4" on:click={drawerOpen}>
-					<span>
-						<svg viewBox="0 0 100 80" class="fill-token w-4 h-4">
-							<rect width="100" height="16" />
-							<rect y="30" width="100" height="16" />
-							<rect y="60" width="100" height="16" />
-						</svg>
-					</span>
-				</button>
-			</div>
-		</svelte:fragment>
-	</AppBar>
+	<svelte:fragment slot="header">
+		<AppBar>
+			<svelte:fragment slot="lead">
+				<Logo />
+			</svelte:fragment>
+			<svelte:fragment slot="trail">
+				<div class="hidden lg:flex">
+					<Navigation />
+				</div>
+				<div class="flex items-center">
+					<button class="lg:hidden btn btn-sm mr-4" on:click={drawerOpen}>
+						<span class="bx bx-menu text-2xl"></span>
+					</button>
+				</div>
+			</svelte:fragment>
+		</AppBar>
+	</svelte:fragment>
 	<Home />
 	<svelte:fragment slot="footer">
 		<div class="max-w-screen-lg w-full flex items-center justify-between mx-auto p-4">
