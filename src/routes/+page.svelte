@@ -1,9 +1,11 @@
-<script>
-	import { LightSwitch } from '@skeletonlabs/skeleton';
+<script lang="ts">
+	import { AppBar, LightSwitch } from '@skeletonlabs/skeleton';
 	import NavBar from '../lib/components/NavBar.svelte';
-	import { AppShell } from '@skeletonlabs/skeleton';
+	import { AppShell, initializeStores, Drawer, getDrawerStore } from '@skeletonlabs/skeleton';
 	import Home from '../pages/Home.svelte';
 	import { onMount } from 'svelte';
+	import Navigation from '$lib/components/Navigation.svelte';
+	import Logo from '$lib/components/Logo.svelte';
 
 	onMount(() => {
 		const prefersDark =
@@ -11,15 +13,49 @@
 		const theme = prefersDark ? 'dark' : 'light';
 		document.documentElement.setAttribute('data-theme', theme);
 	});
+
+	initializeStores();
+
+	const drawerStore = getDrawerStore();
+
+	function drawerOpen(): void {
+		drawerStore.open({});
+	}
 </script>
 
-<AppShell slotSidebarRight="bg-surface-500/5 w-56 p-4">
+<Drawer position="right">
+	<h2 class="p-4">Navigation</h2>
+	<hr />
+	<Navigation />
+</Drawer>
+
+<AppShell slotSidebarRight="bg-surface-500/5 w-0 lg:w-64">
+	<AppBar>
+		<svelte:fragment slot="lead">
+			<!-- <NavBar /> -->
+			<Logo />
+		</svelte:fragment>
+		<svelte:fragment slot="trail">
+			<div class="flex items-center">
+				<button class="lg:hidden btn btn-sm mr-4" on:click={drawerOpen}>
+					<span>
+						<svg viewBox="0 0 100 80" class="fill-token w-4 h-4">
+							<rect width="100" height="16" />
+							<rect y="30" width="100" height="16" />
+							<rect y="60" width="100" height="16" />
+						</svg>
+					</span>
+				</button>
+			</div>
+		</svelte:fragment>
+	</AppBar>
+
 	<svelte:fragment slot="sidebarRight">
-		<p>Sidebar</p>
+		<Navigation />
 	</svelte:fragment>
-	<svelte:fragment slot="header">
+	<!-- <svelte:fragment slot="header">
 		<NavBar />
-	</svelte:fragment>
+	</svelte:fragment> -->
 	<Home />
 	<svelte:fragment slot="footer">
 		<div class="max-w-screen-lg w-full flex items-center justify-between mx-auto p-4">
