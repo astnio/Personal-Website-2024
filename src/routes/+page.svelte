@@ -32,12 +32,12 @@
 <AppShell slotSidebarRight="bg-surface-500/5">
 	<svelte:fragment slot="header">
 		<div class="flex items-center justify-center w-full bg-surface-500/5">
-			<div class="flex items-center justify-between mx-auto w-full max-w-screen-lg">
+			<div class="flex items-center justify-between mx-auto w-full max-w-screen-md">
 				<Logo />
-				<div class="hidden lg:flex">
+				<div class="hidden md:flex">
 					<Navigation />
 				</div>
-				<div class="flex items-center lg:hidden">
+				<div class="flex items-center md:hidden">
 					<button class=" btn btn-sm mr-4" on:click={drawerOpen}>
 						<span class="bx bx-menu text-2xl"></span>
 					</button>
@@ -47,7 +47,7 @@
 	</svelte:fragment>
 	<Home />
 	<svelte:fragment slot="footer">
-		<div class="max-w-screen-lg w-full flex items-center justify-between mx-auto p-4">
+		<div class="max-w-screen-md w-full flex items-center justify-between mx-auto p-4">
 			<p>&copy; Austin Hagel 2021 - {new Date().getFullYear()}</p>
 			<LightSwitch />
 		</div>

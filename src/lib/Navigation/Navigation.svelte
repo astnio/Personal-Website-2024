@@ -1,4 +1,5 @@
 <script lang="ts">
+	import LinkButton from '$lib/LinkButton.svelte';
 	import { getDrawerStore } from '@skeletonlabs/skeleton';
 
 	const drawerStore = getDrawerStore();
@@ -9,24 +10,30 @@
 </script>
 
 <nav class="list-nav p-4">
-	<ul class="flex flex-col lg:flex-row items-baseline">
-		<li class="w-full">
+	<ul class="flex flex-col md:flex-row items-baseline">
+		<li class="w-full md:w-auto">
 			<a href="/" on:click={drawerClose} class="flex items-center justify-center w-full">Home</a>
 		</li>
-		<li class="w-full">
+		<li class="w-full md:w-auto">
 			<a href="/about" on:click={drawerClose} class="flex items-center justify-center w-full"
 				>About</a
 			>
 		</li>
-		<li class="w-full">
+		<li class="w-full md:w-auto">
 			<a href="/projects" on:click={drawerClose} class="flex items-center justify-center w-full"
 				>Projects</a
 			>
 		</li>
-		<li class="w-full">
-			<a href="/contact" on:click={drawerClose} class="flex items-center justify-center w-full"
-				>Contact</a
+		<li class="w-full md:w-auto">
+			<LinkButton
+				linkUrl="mailto:hello@msg.austinh.io"
+				iconClass="bx bxs-envelope"
+				newTab={false}
+				buttonVariant="filled"
+				buttonClass="btn-sm"
 			>
+				<span class="font-bold">Contact</span>
+			</LinkButton>
 		</li>
 	</ul>
 </nav>
