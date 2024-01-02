@@ -1,11 +1,11 @@
 <script lang="ts">
 	import { AppBar, LightSwitch } from '@skeletonlabs/skeleton';
-	import NavBar from '../lib/components/NavBar.svelte';
+	import NavBar from '../lib/Navigation/NavBar.svelte';
 	import { AppShell, initializeStores, Drawer, getDrawerStore } from '@skeletonlabs/skeleton';
 	import Home from '../pages/Home.svelte';
 	import { onMount } from 'svelte';
-	import Navigation from '$lib/components/Navigation.svelte';
-	import Logo from '$lib/components/Logo.svelte';
+	import Navigation from '$lib/Navigation/Navigation.svelte';
+	import Logo from '$lib/Logo.svelte';
 
 	onMount(() => {
 		const prefersDark =
