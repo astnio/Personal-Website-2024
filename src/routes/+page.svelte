@@ -8,6 +8,7 @@
 	import Logo from '$lib/Logo/Logo.svelte';
 	import About from '../pages/About/About.svelte';
 	import Projects from '../pages/Projects/Projects.svelte';
+	import NavLink from '$lib/Navigation/NavLink.svelte';
 
 	let theme;
 
@@ -59,7 +60,10 @@
 	</svelte:fragment>
 	<Home />
 	<About />
-	<Projects />
+	<Projects>
+		<NavLink linkUrl="home" iconClass="bx bxs-chevrons-up text-4xl my-16 opacity-60" />
+	</Projects>
+
 	<svelte:fragment slot="footer">
 		<div class="max-w-screen-lg w-full flex items-center justify-between mx-auto p-4">
 			<p>&copy; 2021-{new Date().getFullYear()} Austin Hagel</p>

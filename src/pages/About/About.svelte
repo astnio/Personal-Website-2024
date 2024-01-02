@@ -4,7 +4,7 @@
 
 <section
 	id="about"
-	class="flex flex-col max-w-screen-lg mx-auto justify-center pb-60 p-4 h-[100svh]"
+	class="flex flex-col max-w-screen-lg mx-auto justify-center pb-60 md:mb-0 mb-40 p-4 h-[100svh]"
 >
 	<h2 class="text-4xl">About</h2>
 	<hr class="my-2" />

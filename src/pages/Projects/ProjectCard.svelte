@@ -9,14 +9,14 @@
 
 <div class="flex flex-col card p-4">
 	<header class="card-header flex flex-col">
-		<span class="text-2xl font-semibold">{title}</span>
+		<span class="flex flex-wrap md:text-2xl text-xl font-semibold">{title}</span>
 		{#if date}
-			<span class="badge variant-ringed text-sm w-fit px-4 mt-1">{date}</span>
+			<span class="badge variant-ringed text-sm w-fit px-4 mt-2">{date}</span>
 		{/if}
 	</header>
 	<section class="flex flex-col p-4">
 		<p>{description}</p>
-		<nav class="list-nav flex my-4 gap-4">
+		<nav class="list-nav flex flex-wrap my-4 gap-4">
 			{#if gitHubLink}
 				<a href={gitHubLink} target="_blank" class="btn variant-ghost">
 					<span class=" bx bxl-github text-lg"></span>
@@ -31,7 +31,7 @@
 			{/if}
 		</nav>
 	</section>
-	<footer class="card-footer flex gap-2">
+	<footer class="card-footer flex flex-wrap gap-2">
 		{#each tags as tag}
 			<span class="badge variant-filled">{tag}</span>
 		{/each}
