@@ -9,8 +9,8 @@
 	}
 </script>
 
-<nav class="list-nav p-4">
-	<ul class="flex flex-col md:flex-row items-baseline">
+<nav class="list-nav p-4 h-full">
+	<ul class="flex flex-col md:flex-row items-baseline h-full md:h-auto">
 		<li class="w-full md:w-auto">
 			<a href="/" on:click={drawerClose} class="flex items-center justify-center w-full">Home</a>
 		</li>
@@ -24,15 +24,15 @@
 				>Projects</a
 			>
 		</li>
-		<li class="w-full md:w-auto">
+		<li class="w-full md:w-auto" style="margin-top: auto;">
 			<LinkButton
 				linkUrl="mailto:hello@msg.austinh.io"
 				iconClass="bx bxs-envelope"
 				newTab={false}
-				buttonVariant="filled"
+				buttonVariant="ghost"
 				buttonClass="btn-sm"
 			>
-				<span class="font-bold">Contact</span>
+				<span class="semibold">Contact</span>
 			</LinkButton>
 		</li>
 	</ul>

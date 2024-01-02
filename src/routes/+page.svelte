@@ -24,7 +24,11 @@
 </script>
 
 <Drawer position="right" width="w-64">
-	<h2 class="p-4 cursor-default">Navigation</h2>
+	<h2
+		class="flex items-center justify-center p-4 cursor-default w-full uppercase tracking-wider text-primary-300/600 dark:bg-surface-700 bg-surface-200"
+	>
+		Navigation
+	</h2>
 	<hr />
 	<Navigation />
 </Drawer>
@@ -48,7 +52,7 @@
 	<Home />
 	<svelte:fragment slot="footer">
 		<div class="max-w-screen-md w-full flex items-center justify-between mx-auto p-4">
-			<p>&copy; Austin Hagel 2021 - {new Date().getFullYear()}</p>
+			<p>&copy; 2021-{new Date().getFullYear()} Austin Hagel</p>
 			<LightSwitch />
 		</div>
 	</svelte:fragment>
