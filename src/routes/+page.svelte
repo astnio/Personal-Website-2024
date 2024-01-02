@@ -31,21 +31,19 @@
 
 <AppShell slotSidebarRight="bg-surface-500/5">
 	<svelte:fragment slot="header">
-		<AppBar>
-			<svelte:fragment slot="lead">
+		<div class="flex items-center justify-center w-full bg-surface-500/5">
+			<div class="flex items-center justify-between mx-auto w-full max-w-screen-lg">
 				<Logo />
-			</svelte:fragment>
-			<svelte:fragment slot="trail">
 				<div class="hidden lg:flex">
 					<Navigation />
 				</div>
-				<div class="flex items-center">
-					<button class="lg:hidden btn btn-sm mr-4" on:click={drawerOpen}>
+				<div class="flex items-center lg:hidden">
+					<button class=" btn btn-sm mr-4" on:click={drawerOpen}>
 						<span class="bx bx-menu text-2xl"></span>
 					</button>
 				</div>
-			</svelte:fragment>
-		</AppBar>
+			</div>
+		</div>
 	</svelte:fragment>
 	<Home />
 	<svelte:fragment slot="footer">
