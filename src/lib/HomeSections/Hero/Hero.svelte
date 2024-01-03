@@ -1,4 +1,5 @@
 <script>
+	import { Avatar } from '@skeletonlabs/skeleton';
 	import Links from './Links.svelte';
 
 	const portrait = '/portrait_transbg_nooutline.png';
@@ -19,12 +20,15 @@
 
 			<Links />
 		</div>
-		<div class="flex overflow-hidden rounded-full border-8">
-			<img
-				src={portrait}
-				alt="Austin"
-				class="md:w-full w-80 bg-tertiary-50-900-token bg-opacity-30"
-			/>
-		</div>
+
+		<Avatar
+			src={portrait}
+			initials="AH"
+			class="md:w-full w-32 "
+			background="bg-tertiary-50-900-token"
+			border="md:border-8 border-4"
+			shadow="md:shadow-2xl shadow-xl"
+			rounded="rounded-full"
+		/>
 	</div>
 </section>
