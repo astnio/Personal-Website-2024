@@ -14,6 +14,7 @@
 	import Home from '../pages/Home.svelte';
 	import About from '../pages/About/About.svelte';
 	import Projects from '../pages/Projects/Projects.svelte';
+	import NavigationDrawer from '$lib/Navigation/NavigationDrawer.svelte';
 
 	initializeStores();
 
@@ -32,19 +33,7 @@
 	}
 </script>
 
-<Drawer position="right" width="w-64">
-	<div class="flex flex-col h-full">
-		<h2
-			class="flex items-center justify-center p-4 cursor-default w-full uppercase tracking-wider text-primary-300/600 dark:bg-surface-700 bg-surface-200"
-		>
-			Navigation
-		</h2>
-		<hr />
-		<div class="flex flex-grow">
-			<Navigation />
-		</div>
-	</div>
-</Drawer>
+<NavigationDrawer />
 
 <AppShell slotSidebarRight="bg-surface-500/5" scrollbarGutter="auto">
 	<div>
