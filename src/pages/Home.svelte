@@ -1,5 +1,6 @@
 <script>
 	import Links from '$lib/Links.svelte';
+	const portrait = '/portrait_transbg_nooutline.png';
 </script>
 
 <section
@@ -18,7 +19,11 @@
 			<Links />
 		</div>
 		<div class="flex overflow-hidden rounded-full border-8">
-			<img src="https://placekitten.com/512/512" alt="Austin" class="md:w-full w-80" />
+			<img
+				src={portrait}
+				alt="Austin"
+				class="md:w-full w-80 bg-tertiary-50-900-token bg-opacity-30"
+			/>
 		</div>
 	</div>
 </section>
