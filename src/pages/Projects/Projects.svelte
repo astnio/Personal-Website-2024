@@ -8,9 +8,9 @@
 	<ul class="grid lg:grid-cols-2 grid-cols-1 gap-8 w-full">
 		<li class="flex items-stretch">
 			<ProjectCard
-				title="Personal Website (You're here!)"
-				description="My personal website, made using SvelteKit, Skeleton UI + Tailwind, and TypeScript."
-				date="Dec 2024 - Present"
+				title="Personal Website (2024)"
+				description="My personal website, the very one you are at right now! Made using SvelteKit, Skeleton UI + Tailwind, and TypeScript."
+				date="Dec 2023 - Present"
 				gitHubLink="https://github.com/austinh-io/Personal-Website-2024"
 				tags={['SvelteKit', 'Skeleton', 'TailWind', 'TypeScript']}
 			/>
@@ -29,7 +29,7 @@
 			<ProjectCard
 				title="Simple Ecommerce Frontend"
 				description="The frontend mockup of an ecommerce site. Made with vanilla JavaScript, CSS, and HTML."
-				date="Aug 2023 - Dec 2024"
+				date="Aug 2023 - Dec 2023"
 				gitHubLink="https://github.com/austinh-io/Simple-Ecommerce-Frontend"
 				demoLink="https://projects.austinh.io/simple-ecom/"
 				tags={['HTML5', 'CSS3', 'JavaScript']}
