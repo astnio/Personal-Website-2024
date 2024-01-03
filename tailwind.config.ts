@@ -15,7 +15,20 @@ export default {
 	variants: {},
 	plugins: [
 		skeleton({
-			themes: { preset: ['wintry'] }
+			themes: {
+				preset: [
+					'skeleton',
+					'wintry',
+					'modern',
+					'rocket',
+					'seafoam',
+					'vintage',
+					'sahara',
+					'hamlindigo',
+					'gold-nouveau',
+					'crimson'
+				]
+			}
 		})
 	]
 } satisfies Config;
