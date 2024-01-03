@@ -4,7 +4,9 @@
 	import Navigation from './Navigation.svelte';
 </script>
 
-<div>
+<div
+	class="fixed w-full z-10 backdrop-blur-lg dark:bg-opacity-60 bg-opacity-80 dark:bg-surface-800 bg-surface-100"
+>
 	<div class="flex items-center justify-center w-full bg-surface-500/5">
 		<div class="flex items-center justify-between mx-auto w-full max-w-screen-lg">
 			<Logo />

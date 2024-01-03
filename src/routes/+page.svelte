@@ -24,7 +24,7 @@
 
 <AppShell slotSidebarRight="bg-surface-500/5" scrollbarGutter="auto">
 	<NavBar />
-	<div class="flex flex-col items-start justify-start gap-20">
+	<div class="flex flex-col items-start justify-start gap-20 mt-8">
 		<Hero />
 		<About />
 		<Projects>
