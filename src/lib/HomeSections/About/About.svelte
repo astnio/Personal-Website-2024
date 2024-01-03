@@ -6,9 +6,9 @@
 	<h2 class="text-4xl">About</h2>
 	<hr class="mt-2 mb-4" />
 	<div class="flex md:block flex-col-reverse md:gap-8 gap-2 items-start">
-		<div class="float-right md:ml-8 mt-8 md:mt-0">
+		<!-- <div class="float-right md:ml-8 mt-8 md:mt-0">
 			<LinkedInBadge />
-		</div>
+		</div> -->
 		<div class="md:block flex flex-col">
 			<p>
 				I'm a web development enthusiast with a particular knack for design, currently working
