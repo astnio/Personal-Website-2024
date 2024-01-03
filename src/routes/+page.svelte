@@ -2,9 +2,9 @@
 	import { onMount } from 'svelte';
 	import { AppShell, initializeStores, setModeCurrent } from '@skeletonlabs/skeleton';
 	import NavLink from '$lib/Navigation/NavLink.svelte';
-	import Home from '../pages/Home/Home.svelte';
-	import About from '../pages/About/About.svelte';
-	import Projects from '../pages/Projects/Projects.svelte';
+	import Hero from '../lib/HomeSections/Hero/Hero.svelte';
+	import About from '../lib/HomeSections/About/About.svelte';
+	import Projects from '../lib/HomeSections/Projects/Projects.svelte';
 	import NavigationDrawer from '$lib/Navigation/NavigationDrawer.svelte';
 	import NavBar from '$lib/NavBar.svelte';
 	import FooterBar from '$lib/Navigation/FooterBar.svelte';
@@ -25,7 +25,7 @@
 <AppShell slotSidebarRight="bg-surface-500/5" scrollbarGutter="auto">
 	<NavBar />
 	<div class="flex flex-col items-start justify-start gap-20">
-		<Home />
+		<Hero />
 		<About />
 		<Projects>
 			<div

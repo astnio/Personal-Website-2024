@@ -1,7 +1,7 @@
 <script lang="ts">
 	import { initializeStores, getDrawerStore } from '@skeletonlabs/skeleton';
 
-	import Logo from './Logo/Logo.svelte';
+	import Logo from './Navigation/Logo/Logo.svelte';
 	import Navigation from './Navigation/Navigation.svelte';
 
 	initializeStores();

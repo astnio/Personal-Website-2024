@@ -1,6 +1,6 @@
 <script>
-	import LinkButton from '../../pages/Home/LinkButton.svelte';
-	import Logo from '../Logo/Logo.svelte';
+	import LinkButton from '../HomeSections/Hero/LinkButton.svelte';
+	import Logo from './Logo/Logo.svelte';
 </script>
 
 <div class="w-full p-4 bg-surface-800/100">
