@@ -24,8 +24,8 @@
 		<Avatar
 			src={portrait}
 			initials="AH"
-			class="md:w-full w-32 "
-			background="bg-tertiary-50-900-token"
+			class="md:w-full w-32"
+			background="bg-primary-400 dark:bg-primary-500 bg-opacity-25 dark:bg-opacity-25"
 			border="md:border-8 border-4"
 			shadow="md:shadow-2xl shadow-xl"
 			rounded="rounded-full"
