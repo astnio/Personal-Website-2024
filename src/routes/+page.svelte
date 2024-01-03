@@ -6,8 +6,8 @@
 	import About from '../lib/HomeSections/About/About.svelte';
 	import Projects from '../lib/HomeSections/Projects/Projects.svelte';
 	import NavigationDrawer from '$lib/Navigation/NavigationDrawer.svelte';
-	import NavBar from '$lib/NavBar.svelte';
 	import FooterBar from '$lib/Navigation/FooterBar.svelte';
+	import NavBar from '$lib/Navigation/NavBar.svelte';
 
 	initializeStores();
 
