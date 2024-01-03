@@ -5,7 +5,8 @@
 		initializeStores,
 		Drawer,
 		getDrawerStore,
-		LightSwitch
+		LightSwitch,
+		setModeCurrent
 	} from '@skeletonlabs/skeleton';
 	import Navigation from '$lib/Navigation/Navigation.svelte';
 	import NavLink from '$lib/Navigation/NavLink.svelte';
@@ -23,6 +24,7 @@
 			window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches;
 		const theme = prefersDark ? 'dark' : 'light';
 		document.documentElement.setAttribute('data-theme', theme);
+		setModeCurrent(theme == 'dark' ? false : true);
 	});
 
 	function drawerOpen(): void {
