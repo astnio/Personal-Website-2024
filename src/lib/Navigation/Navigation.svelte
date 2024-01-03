@@ -14,7 +14,7 @@
 		<li class="w-full md:w-auto">
 			<NavLink linkUrl="projects" title="Projects" />
 		</li>
-		<li class="w-full md:w-auto" style="margin-top: auto;">
+		<li class="w-full md:w-auto ml-2" style="margin-top: auto;">
 			<LinkButton
 				linkUrl="mailto:hello@msg.austinh.io"
 				iconClass="bx bxs-envelope"
