@@ -2,10 +2,10 @@
 	import ProjectCard from './ProjectCard.svelte';
 </script>
 
-<section id="projects" class="flex flex-col max-w-screen-lg mx-auto p-4 h-[100svh]">
+<section id="projects" class="flex flex-col max-w-screen-lg mx-auto p-4 w-full">
 	<h2 class="text-4xl">Projects</h2>
-	<hr class="my-2" />
-	<ul class="flex flex-col gap-4">
+	<hr class="my-2 mb-4" />
+	<ul class="flex flex-col gap-8">
 		<li>
 			<ProjectCard
 				title="Personal Website (You're here!)"

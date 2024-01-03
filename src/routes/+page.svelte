@@ -42,8 +42,8 @@
 	</div>
 </Drawer>
 
-<AppShell slotSidebarRight="bg-surface-500/5">
-	<svelte:fragment slot="header">
+<AppShell slotSidebarRight="bg-surface-500/5" scrollbarGutter="auto">
+	<div>
 		<div class="flex items-center justify-center w-full bg-surface-500/5">
 			<div class="flex items-center justify-between mx-auto w-full max-w-screen-lg">
 				<Logo />
@@ -57,17 +57,19 @@
 				</div>
 			</div>
 		</div>
-	</svelte:fragment>
-	<Home />
-	<About />
-	<Projects>
-		<NavLink linkUrl="home" iconClass="bx bxs-chevrons-up text-4xl my-16 opacity-60" />
-	</Projects>
+	</div>
+	<div class="flex flex-col items-start justify-start gap-20">
+		<Home />
+		<About />
+		<Projects>
+			<NavLink linkUrl="home" iconClass="bx bxs-chevrons-up text-4xl my-16 opacity-60" />
+		</Projects>
+	</div>
 
-	<svelte:fragment slot="footer">
+	<footer>
 		<div class="max-w-screen-lg w-full flex items-center justify-between mx-auto p-4">
 			<p>&copy; 2021-{new Date().getFullYear()} Austin Hagel</p>
 			<LightSwitch />
 		</div>
-	</svelte:fragment>
+	</footer>
 </AppShell>

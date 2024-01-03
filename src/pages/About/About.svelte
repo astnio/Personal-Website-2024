@@ -2,10 +2,7 @@
 	import LinkedInBadge from './LinkedInBadge.svelte';
 </script>
 
-<section
-	id="about"
-	class="flex flex-col max-w-screen-lg mx-auto justify-center pb-60 md:mb-0 mb-40 p-4 h-[100svh]"
->
+<section id="about" class="flex flex-col max-w-screen-lg mx-auto justify-center p-4">
 	<h2 class="text-4xl">About</h2>
 	<hr class="my-2" />
 	<div class="flex md:flex-row flex-col gap-8 items-start">
