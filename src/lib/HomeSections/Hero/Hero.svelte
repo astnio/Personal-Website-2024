@@ -21,6 +21,7 @@
 
 			<Links />
 			<div class="flex items-center md:justify-start justify-center mt-8 gap-4">
+				<SocialLink linkUrl="https://i.austinh.io/github/" iconClass="bx bxl-github" />
 				<SocialLink linkUrl="https://i.austinh.io/linkedin/" iconClass="bx bxl-linkedin-square" />
 				<SocialLink linkUrl="https://i.austinh.io/instagram/" iconClass="bx bxl-instagram-alt" />
 				<SocialLink linkUrl="https://i.austinh.io/youtube-dev/" iconClass="bx bxl-youtube" />
@@ -31,7 +32,7 @@
 		<Avatar
 			src={portrait}
 			initials="AH"
-			class="md:w-full w-32"
+			class="md:w-full w-32 max-w-96"
 			background="bg-primary-400 dark:bg-primary-500 bg-opacity-25 dark:bg-opacity-25"
 			border="md:border-8 border-4"
 			shadow="md:shadow-2xl shadow-xl"
