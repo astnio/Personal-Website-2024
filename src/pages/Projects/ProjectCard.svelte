@@ -5,16 +5,16 @@
 	export let gitHubLink: string = '';
 	export let demoLink: string = '';
 	export let tags: string[] = [];
+	export let imageSource: string = '';
 </script>
 
-<div class="flex md:flex-row flex-col card p-4">
-	<div class="flex items-center justify-center">
-		<img
-			src="https://placekitten.com/512/512"
-			alt="Project X"
-			class="w-full max-w-90 rounded-md aspect-video"
-		/>
-	</div>
+<div class="flex card overflow-hidden flex-grow">
+	{#if imageSource}
+		<div class="flex items-center justify-center">
+			<img src={imageSource} alt={title} class="w-full max-w-90 aspect-video" />
+		</div>
+	{/if}
+
 	<div>
 		<header class="card-header flex flex-col">
 			<span class="flex flex-wrap md:text-2xl text-xl font-semibold">{title}</span>

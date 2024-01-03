@@ -5,8 +5,8 @@
 <section id="projects" class="flex flex-col max-w-screen-lg mx-auto p-4 w-full">
 	<h2 class="text-4xl">Projects</h2>
 	<hr class="my-2 mb-4" />
-	<ul class="flex flex-col gap-8">
-		<li>
+	<ul class="grid lg:grid-cols-2 grid-cols-1 gap-8 w-full">
+		<li class="flex items-stretch">
 			<ProjectCard
 				title="Personal Website (You're here!)"
 				description="My personal website, made using SvelteKit, Skeleton UI + Tailwind, and TypeScript."
@@ -15,7 +15,7 @@
 				tags={['SvelteKit', 'Skeleton', 'TailWind', 'TypeScript']}
 			/>
 		</li>
-		<li>
+		<li class="flex items-stretch">
 			<ProjectCard
 				title="React/TypeScript/Tailwind (RTT) WordGuess Game"
 				description="This is another WordGuess game, this time made with React, TypeScript, and Tailwind."
@@ -25,7 +25,7 @@
 				tags={['React', 'TailWind', 'TypeScript']}
 			/>
 		</li>
-		<li>
+		<li class="flex items-stretch">
 			<ProjectCard
 				title="Simple Ecommerce Frontend"
 				description="The frontend mockup of an ecommerce site. Made with vanilla JavaScript, CSS, and HTML."
