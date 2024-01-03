@@ -1,6 +1,7 @@
 <script>
 	import { Avatar } from '@skeletonlabs/skeleton';
 	import Links from './Links.svelte';
+	import SocialLink from './SocialLink.svelte';
 
 	const portrait = '/portrait_transbg_nooutline.png';
 </script>
@@ -19,6 +20,12 @@
 			</div>
 
 			<Links />
+			<div class="flex items-center md:justify-start justify-center mt-8 gap-4">
+				<SocialLink linkUrl="https://i.austinh.io/linkedin/" iconClass="bx bxl-linkedin-square" />
+				<SocialLink linkUrl="https://i.austinh.io/instagram/" iconClass="bx bxl-instagram-alt" />
+				<SocialLink linkUrl="https://i.austinh.io/youtube-dev/" iconClass="bx bxl-youtube" />
+				<!-- <SocialLink linkUrl="#" iconClass="bx bxl-mastodon" /> -->
+			</div>
 		</div>
 
 		<Avatar
