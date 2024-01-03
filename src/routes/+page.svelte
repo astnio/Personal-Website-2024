@@ -2,7 +2,7 @@
 	import { onMount } from 'svelte';
 	import { AppShell, initializeStores, setModeCurrent } from '@skeletonlabs/skeleton';
 	import NavLink from '$lib/Navigation/NavLink.svelte';
-	import Home from '../pages/Home.svelte';
+	import Home from '../pages/Home/Home.svelte';
 	import About from '../pages/About/About.svelte';
 	import Projects from '../pages/Projects/Projects.svelte';
 	import NavigationDrawer from '$lib/Navigation/NavigationDrawer.svelte';

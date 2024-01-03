@@ -1,5 +1,5 @@
 <script lang="ts">
-	import LinkButton from '$lib/LinkButton.svelte';
+	import LinkButton from '../../pages/Home/LinkButton.svelte';
 	import NavLink from './NavLink.svelte';
 </script>
 

@@ -1,5 +1,6 @@
 <script>
-	import Links from '$lib/Links.svelte';
+	import Links from './Links.svelte';
+
 	const portrait = '/portrait_transbg_nooutline.png';
 </script>
 
