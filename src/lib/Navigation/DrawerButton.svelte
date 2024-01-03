@@ -1,13 +1,17 @@
 <script lang="ts">
-	import { initializeStores, getDrawerStore } from '@skeletonlabs/skeleton';
+	import { drawerState } from '../../stores';
 
-	initializeStores();
+	// import { initializeStores, getDrawerStore } from '@skeletonlabs/skeleton';
+	// import { drawerState } from '$app/stores';
 
-	const drawerStore = getDrawerStore();
+	// initializeStores();
+
+	// const drawerStore = getDrawerStore();
 
 	function drawerOpen(): void {
-		console.log('drawerOpen');
-		drawerStore.open({});
+		// drawerStore.open({});
+		drawerState.update((state: boolean) => !state);
+		console.log(drawerState);
 	}
 </script>
 

@@ -1,14 +1,12 @@
 <script lang="ts">
-	import { getDrawerStore } from '@skeletonlabs/skeleton';
+	import { drawerState } from '../../stores';
 
 	export let linkUrl: string;
 	export let title: string = '';
 	export let iconClass: string = '';
 
-	const drawerStore = getDrawerStore();
-
-	function drawerClose(): void {
-		drawerStore.close();
+	function handleClose() {
+		drawerState.set(false);
 	}
 
 	function scrollToSection(event: MouseEvent, sectionId: string): void {
@@ -24,7 +22,7 @@
 	href={`#${linkUrl}`}
 	on:click|preventDefault={(event) => {
 		scrollToSection(event, linkUrl);
-		drawerClose();
+		handleClose();
 	}}
 	class="flex items-center justify-center w-full"
 >
