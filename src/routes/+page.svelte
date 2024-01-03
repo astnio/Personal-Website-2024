@@ -1,16 +1,22 @@
 <script lang="ts">
-	import { AppBar, LightSwitch } from '@skeletonlabs/skeleton';
-	import NavBar from '../lib/Navigation/NavBar.svelte';
-	import { AppShell, initializeStores, Drawer, getDrawerStore } from '@skeletonlabs/skeleton';
-	import Home from '../pages/Home.svelte';
 	import { onMount } from 'svelte';
+	import {
+		AppShell,
+		initializeStores,
+		Drawer,
+		getDrawerStore,
+		LightSwitch
+	} from '@skeletonlabs/skeleton';
 	import Navigation from '$lib/Navigation/Navigation.svelte';
+	import NavLink from '$lib/Navigation/NavLink.svelte';
 	import Logo from '$lib/Logo/Logo.svelte';
+	import Home from '../pages/Home.svelte';
 	import About from '../pages/About/About.svelte';
 	import Projects from '../pages/Projects/Projects.svelte';
-	import NavLink from '$lib/Navigation/NavLink.svelte';
 
-	let theme;
+	initializeStores();
+
+	const drawerStore = getDrawerStore();
 
 	onMount(() => {
 		const prefersDark =
@@ -18,10 +24,6 @@
 		const theme = prefersDark ? 'dark' : 'light';
 		document.documentElement.setAttribute('data-theme', theme);
 	});
-
-	initializeStores();
-
-	const drawerStore = getDrawerStore();
 
 	function drawerOpen(): void {
 		drawerStore.open({});
