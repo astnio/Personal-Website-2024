@@ -17,7 +17,7 @@
 
 			<Links />
 		</div>
-		<div class="flex overflow-hidden rounded-2xl">
+		<div class="flex overflow-hidden rounded-full border-8">
 			<img src="https://placekitten.com/512/512" alt="Austin" class="md:w-full w-80" />
 		</div>
 	</div>
