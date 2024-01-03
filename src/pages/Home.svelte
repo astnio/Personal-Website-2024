@@ -8,9 +8,11 @@
 >
 	<div class="flex md:flex-row flex-col-reverse items-center justify-between gap-12">
 		<div class="flex flex-col">
-			<h1 class="sm:text-4xl text-2xl font-semibold">Hello, I am Austin Hagel</h1>
-			<div class="flex gap-8 mt-1 mb-6">
-				<blockquote class="blockquote">Web Developer | Digital Designer</blockquote>
+			<h1 class="h1 font-semibold uppercase tracking-widest m-0">Austin Hagel</h1>
+			<div class="flex items-center justify-start mt-2 mb-8 text-xl font-light">
+				<span>Web Developer</span>
+				<span class="divider-vertical h-8 mx-4"></span>
+				<span>Digital Designer</span>
 			</div>
 
 			<Links />

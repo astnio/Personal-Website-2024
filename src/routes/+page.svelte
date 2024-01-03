@@ -62,7 +62,11 @@
 		<Home />
 		<About />
 		<Projects>
-			<NavLink linkUrl="home" iconClass="bx bxs-chevrons-up text-4xl my-16 opacity-60" />
+			<div
+				class="flex items-center justify-center mx-auto w-8 h-8 p-6 aspect-square my-16 rounded-full bg-surface-500 bg-opacity-20"
+			>
+				<NavLink linkUrl="home" iconClass="bx bxs-chevrons-up text-4xl  opacity-60" />
+			</div>
 		</Projects>
 	</div>
 
