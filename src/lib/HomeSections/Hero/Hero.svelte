@@ -24,7 +24,7 @@
 				<SocialLink linkUrl="https://i.austinh.io/github/" iconClass="bx bxl-github" />
 				<SocialLink linkUrl="https://i.austinh.io/linkedin/" iconClass="bx bxl-linkedin-square" />
 				<SocialLink linkUrl="https://i.austinh.io/instagram/" iconClass="bx bxl-instagram-alt" />
-				<SocialLink linkUrl="https://i.austinh.io/youtube-dev/" iconClass="bx bxl-youtube" />
+				<!-- <SocialLink linkUrl="https://i.austinh.io/youtube-dev/" iconClass="bx bxl-youtube" /> -->
 				<!-- <SocialLink linkUrl="#" iconClass="bx bxl-mastodon" /> -->
 			</div>
 		</div>

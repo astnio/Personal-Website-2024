@@ -25,9 +25,9 @@
 		>
 	</li>
 
-	<li class="w-full sm:w-auto">
+	<!-- <li class="w-full sm:w-auto">
 		<LinkButton linkUrl="https://i.austinh.io/codepen/" newTab={true} iconClass="bx bxl-codepen"
 			>CodePen</LinkButton
 		>
-	</li>
+	</li> -->
 </ul>
