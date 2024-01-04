@@ -3,7 +3,7 @@
 	import Links from './Links.svelte';
 	import SocialLink from './SocialLink.svelte';
 
-	const portrait = '/portrait_transbg_nooutline.png';
+	const portrait = './images/portrait_transbg_nooutline.png';
 </script>
 
 <section
