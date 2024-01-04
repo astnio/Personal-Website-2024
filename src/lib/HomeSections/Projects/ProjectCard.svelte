@@ -1,4 +1,6 @@
 <script lang="ts">
+	import { filter } from '@skeletonlabs/skeleton';
+
 	export let title: string;
 	export let description: string;
 	export let date: string = '';
@@ -11,7 +13,11 @@
 <div class="flex flex-col card overflow-hidden flex-grow">
 	{#if imageSource}
 		<div class="flex items-center justify-center">
-			<img src={imageSource} alt={title} class="w-full max-w-90 aspect-video object-cover" />
+			<img
+				src={imageSource}
+				alt={title}
+				class="w-full max-w-90 aspect-video object-cover opacity-80"
+			/>
 		</div>
 	{/if}
 
