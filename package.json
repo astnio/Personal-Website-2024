@@ -39,6 +39,7 @@
 	},
 	"type": "module",
 	"dependencies": {
-		"boxicons": "^2.1.4"
+		"boxicons": "^2.1.4",
+		"rss-parser": "^3.13.0"
 	}
 }
