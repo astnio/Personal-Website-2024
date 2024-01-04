@@ -8,7 +8,6 @@
 	import NavigationDrawer from '$lib/Navigation/NavigationDrawer.svelte';
 	import FooterBar from '$lib/Navigation/FooterBar.svelte';
 	import NavBar from '$lib/Navigation/NavBar.svelte';
-	import BlogPostList from '$lib/BlogPostList.svelte';
 
 	initializeStores();
 
@@ -29,7 +28,6 @@
 		<Hero />
 		<About />
 		<Projects />
-		<BlogPostList />
 
 		<div
 			class="flex items-center justify-center mx-auto w-8 h-8 p-6 aspect-square mb-16 mt-32 rounded-full bg-surface-500 bg-opacity-20"
