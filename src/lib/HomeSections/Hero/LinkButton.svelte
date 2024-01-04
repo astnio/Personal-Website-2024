@@ -9,8 +9,8 @@
 <a
 	href={linkUrl}
 	target={newTab ? '_blank' : ''}
-	class={`btn variant-${buttonVariant} ${buttonClass} w-full sm:w-auto`}
+	class={`btn variant-${buttonVariant} ${buttonClass} w-full sm:w-auto flex justify-between`}
 >
-	<span class={iconClass}></span>
-	<span><slot /></span>
+	<span class={`${iconClass} text-2xl`}></span>
+	<span class="flex-grow text-center"><slot /></span>
 </a>
