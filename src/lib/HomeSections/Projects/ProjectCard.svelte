@@ -15,14 +15,14 @@
 		</div>
 	{/if}
 
-	<div>
+	<div class="flex flex-col justify-between h-full">
 		<header class="card-header flex flex-col">
 			<span class="flex flex-wrap md:text-2xl text-xl font-semibold">{title}</span>
 			{#if date}
 				<span class="badge variant-ringed text-sm w-fit px-4 mt-2">{date}</span>
 			{/if}
 		</header>
-		<section class="flex flex-col p-4">
+		<section class="flex flex-col p-4 justify-between h-full">
 			<p>{description}</p>
 			<nav class="list-nav flex flex-wrap my-4 gap-4">
 				{#if gitHubLink}
