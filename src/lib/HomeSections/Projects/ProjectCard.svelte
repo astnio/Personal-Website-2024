@@ -8,10 +8,10 @@
 	export let imageSource: string = '';
 </script>
 
-<div class="flex card overflow-hidden flex-grow">
+<div class="flex flex-col card overflow-hidden flex-grow">
 	{#if imageSource}
 		<div class="flex items-center justify-center">
-			<img src={imageSource} alt={title} class="w-full max-w-90 aspect-video" />
+			<img src={imageSource} alt={title} class="w-full max-w-90 aspect-video object-cover" />
 		</div>
 	{/if}
 

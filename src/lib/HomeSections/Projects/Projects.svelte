@@ -12,7 +12,8 @@
 				description="My personal website, the very one you are at right now! Made using SvelteKit, Skeleton UI + Tailwind, and TypeScript."
 				date="Dec 2023 - Present"
 				gitHubLink="https://github.com/austinh-io/Personal-Website-2024"
-				tags={['SvelteKit', 'Skeleton', 'TailWind', 'TypeScript']}
+				tags={['SvelteKit', 'Skeleton', 'Tailwind', 'TypeScript']}
+				imageSource="./images/personal_website.png"
 			/>
 		</li>
 		<li class="flex items-stretch">
@@ -22,7 +23,8 @@
 				date="Dec 2023 - Jan 2024"
 				gitHubLink="https://github.com/austinh-io/RTT-WordGuess"
 				demoLink="https://projects.austinh.io/rtt-wordguess"
-				tags={['React', 'TailWind', 'TypeScript']}
+				tags={['React', 'Tailwind', 'TypeScript', 'Framer Motion']}
+				imageSource="./images/rtt_wordguess.png"
 			/>
 		</li>
 		<li class="flex items-stretch">
@@ -32,7 +34,8 @@
 				date="Aug 2023 - Dec 2023"
 				gitHubLink="https://github.com/austinh-io/Simple-Ecommerce-Frontend"
 				demoLink="https://projects.austinh.io/simple-ecom/"
-				tags={['HTML5', 'CSS3', 'JavaScript']}
+				tags={['HTML', 'CSS', 'JavaScript']}
+				imageSource="./images/simple_ecom.png"
 			/>
 		</li>
 	</ul>
