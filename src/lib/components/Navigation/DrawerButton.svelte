@@ -1,5 +1,5 @@
 <script lang="ts">
-	import { drawerState } from '../../stores';
+	import { drawerState } from '$lib/stores/drawerStore';
 
 	// import { initializeStores, getDrawerStore } from '@skeletonlabs/skeleton';
 	// import { drawerState } from '$app/stores';

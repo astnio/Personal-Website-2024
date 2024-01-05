@@ -1,5 +1,5 @@
 <script lang="ts">
-	import LinkedInBadge from './LinkedInBadge.svelte';
+	// import LinkedInBadge from './LinkedInBadge.svelte';
 </script>
 
 <section id="about" class="flex flex-col max-w-screen-lg mx-auto justify-center p-4">

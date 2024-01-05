@@ -1,13 +1,13 @@
 <script lang="ts">
 	import { onMount } from 'svelte';
 	import { AppShell, initializeStores, setModeCurrent } from '@skeletonlabs/skeleton';
-	import NavLink from '$lib/Navigation/NavLink.svelte';
-	import Hero from '../lib/HomeSections/Hero/Hero.svelte';
-	import About from '../lib/HomeSections/About/About.svelte';
-	import Projects from '../lib/HomeSections/Projects/Projects.svelte';
-	import NavigationDrawer from '$lib/Navigation/NavigationDrawer.svelte';
-	import FooterBar from '$lib/Navigation/FooterBar.svelte';
-	import NavBar from '$lib/Navigation/NavBar.svelte';
+	import Hero from '../lib/components/HomeSections/Hero/Hero.svelte';
+	import About from '../lib/components/HomeSections/About/About.svelte';
+	import Projects from '../lib/components/HomeSections/Projects/Projects.svelte';
+	import NavigationDrawer from '$lib/components/Navigation/NavigationDrawer.svelte';
+	import NavBar from '$lib/components/Navigation/NavBar.svelte';
+	import FooterBar from '$lib/components/Navigation/FooterBar.svelte';
+	import NavLink from '$lib/components/Navigation/NavLink.svelte';
 
 	initializeStores();
 

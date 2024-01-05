@@ -1,7 +1,7 @@
 <script lang="ts">
 	import { Drawer } from '@skeletonlabs/skeleton';
-	import Navigation from '$lib/Navigation/Navigation.svelte';
-	import { drawerState } from '../../stores';
+	import { drawerState } from '$lib/stores/drawerStore';
+	import Navigation from './Navigation.svelte';
 
 	import { initializeStores, getDrawerStore } from '@skeletonlabs/skeleton';
 
