@@ -8,7 +8,7 @@
 
 <section
 	id="home"
-	class="flex items-center justify-center max-w-screen-lg px-4 md:my-32 my-16 mx-auto"
+	class="flex items-center justify-center max-w-screen-lg px-4 md:my-32 md:mt-64 mt-18 my-16 mx-auto"
 >
 	<div class="flex md:flex-row flex-col-reverse items-center justify-between gap-12">
 		<div class="flex flex-col">
