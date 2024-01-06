@@ -8,6 +8,7 @@
 	import NavBar from '$lib/components/Navigation/NavBar.svelte';
 	import FooterBar from '$lib/components/Navigation/FooterBar.svelte';
 	import NavLink from '$lib/components/Navigation/NavLink.svelte';
+	import Post from '$lib/components/Post.svelte';
 
 	initializeStores();
 
@@ -18,6 +19,10 @@
 		document.documentElement.setAttribute('data-theme', theme);
 		setModeCurrent(theme == 'dark' ? false : true);
 	});
+
+	export let data: any;
+
+	const placeHolderData: any = data.props.placeHolderData;
 </script>
 
 <NavigationDrawer />
@@ -28,6 +33,7 @@
 		<Hero />
 		<About />
 		<Projects />
+		<Post postData={placeHolderData} />
 
 		<div
 			class="flex items-center justify-center mx-auto w-8 h-8 p-6 aspect-square mb-16 mt-32 rounded-full bg-surface-500 bg-opacity-20"
