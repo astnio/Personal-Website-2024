@@ -1,7 +1,5 @@
 <script lang="ts">
 	export let postData: any;
-	// const postDetails = postData.props.data;
-	console.log('Post.svelte', postData);
 </script>
 
 <div class="flex mx-auto max-w-screen-lg">

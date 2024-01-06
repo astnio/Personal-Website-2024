@@ -8,7 +8,8 @@
 	import NavBar from '$lib/components/Navigation/NavBar.svelte';
 	import FooterBar from '$lib/components/Navigation/FooterBar.svelte';
 	import NavLink from '$lib/components/Navigation/NavLink.svelte';
-	import Post from '$lib/components/Post.svelte';
+	import PlaceholderPost from '$lib/components/PlaceholderPost.svelte';
+	import BlogPost from '$lib/components/BlogPost.svelte';
 
 	initializeStores();
 
@@ -33,7 +34,8 @@
 		<Hero />
 		<About />
 		<Projects />
-		<Post postData={placeHolderData} />
+		<PlaceholderPost postData={placeHolderData} />
+		<BlogPost />
 
 		<div
 			class="flex items-center justify-center mx-auto w-8 h-8 p-6 aspect-square mb-16 mt-32 rounded-full bg-surface-500 bg-opacity-20"
