@@ -38,23 +38,22 @@
 		<h2 class="h2">Recent Blog Posts</h2>
 		{#each recentPosts as post}
 			<article
-				class="flex gap-4 bg-surface-200 dark:bg-surface-800 p-4 rounded-md bg-opacity-60 dark:bg-opacity-40"
+				class="flex flex-col md:flex-row flex-wrap md:flex-nowrap bg-surface-200 dark:bg-surface-800 rounded-md bg-opacity-60 dark:bg-opacity-40 overflow-hidden"
 			>
-				<div style="flex: 0 0 auto;" class="flex max-w-40">
+				<div class="flex grow aspect-video">
 					<img
 						src={extractImageDetails(post.content).src}
 						alt={extractImageDetails(post.content).alt}
-						class="w-full h-auto rounded-md object-cover aspect-square"
+						class="object-cover h-full w-auto dark:opacity-60 opacity-80"
 					/>
 				</div>
 
-				<div class="flex flex-col gap-2 justify-between">
-					<div class="flex gap-4 flex-wrap">
+				<div class="flex flex-auto flex-col gap-2 justify-between p-4">
+					<div class="flex flex-auto gap-4 flex-wrap">
 						<h3 class="h3">{post.title}</h3>
 						<span class="badge variant-ringed w-fit py-2 px-4">{formatDate(post.pubDate)}</span>
 					</div>
-
-					<p class=" line-clamp-2">{post.contentSnippet}</p>
+					<p class="line-clamp-2">{post.contentSnippet}</p>
 					<a class="btn variant-ghost w-fit mt-4" href={post.link} target="_blank">Read more</a>
 				</div>
 			</article>
