@@ -1,5 +1,5 @@
 <script lang="ts">
-	import BlogPost from '$lib/components/BlogPost.svelte';
+	import RecentBlogPosts from '$lib/components/RecentBlogPosts.svelte';
 </script>
 
 <div class="flex flex-col items-start justify-start gap-20 mt-20">
@@ -43,6 +43,6 @@
 	</section>
 
 	<section class="flex flex-col max-w-screen-lg mx-auto justify-center p-4">
-		<BlogPost />
+		<RecentBlogPosts />
 	</section>
 </div>
