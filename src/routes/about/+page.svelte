@@ -1,4 +1,5 @@
 <script lang="ts">
+	import BlogPost from '$lib/components/BlogPost.svelte';
 	import type { PageData } from './$types';
 
 	export let data: PageData;
@@ -46,5 +47,9 @@
 				</p>
 			</div>
 		</div>
+	</section>
+
+	<section class="flex flex-col max-w-screen-lg mx-auto justify-center p-4">
+		<BlogPost />
 	</section>
 </div>

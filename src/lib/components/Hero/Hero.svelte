@@ -6,10 +6,7 @@
 	const portrait = './images/portrait_transbg_nooutline.png';
 </script>
 
-<section
-	id="home"
-	class="flex items-center justify-center max-w-screen-lg px-4 md:my-32 md:mt-64 mt-18 my-16 mx-auto"
->
+<section id="home" class="flex items-center justify-center max-w-screen-lg px-4 mt-20 mx-auto">
 	<div class="flex md:flex-row flex-col-reverse items-center justify-between gap-12">
 		<div class="flex flex-col">
 			<h1 class="h1 font-semibold uppercase tracking-widest m-0">Austin Hagel</h1>

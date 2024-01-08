@@ -10,8 +10,8 @@
 <NavigationDrawer />
 
 <AppShell scrollbarGutter="auto">
-	<NavBar />
-	<div class="min-h-[100svh]">
+	<div class="flex flex-col justify-between h-full">
+		<NavBar />
 		<slot />
 		<FooterBar />
 	</div>
