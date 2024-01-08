@@ -25,8 +25,6 @@
 
 <div class="flex flex-col items-start justify-start gap-20 mt-8">
 	<Hero />
-	<About />
-	<Projects />
 	<PlaceholderPost postData={placeHolderData} />
 	<BlogPost />
 

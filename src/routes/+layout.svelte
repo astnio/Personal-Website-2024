@@ -9,8 +9,10 @@
 
 <NavigationDrawer />
 
-<AppShell slotSidebarRight="bg-surface-500/5" scrollbarGutter="auto">
+<AppShell scrollbarGutter="auto">
 	<NavBar />
-	<slot />
-	<FooterBar />
+	<div class="min-h-[100svh]">
+		<slot />
+		<FooterBar />
+	</div>
 </AppShell>

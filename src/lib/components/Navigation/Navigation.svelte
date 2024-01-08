@@ -12,7 +12,7 @@
 			<NavLink linkUrl="/about" title="About" />
 		</li>
 		<li class="w-full md:w-auto">
-			<NavLink linkUrl="#projects" title="Projects" />
+			<NavLink linkUrl="/projects" title="Projects" />
 		</li>
 		<li class="w-full md:w-auto ml-2" style="margin-top: auto;">
 			<LinkButton

@@ -19,8 +19,8 @@
 	}
 
 	function handleClick(event: MouseEvent): void {
-		console.log('linkUrl', linkUrl);
-		console.log('isExternalLink', isInternalLink);
+		// console.log('linkUrl', linkUrl);
+		// console.log('isExternalLink', isInternalLink);
 		if (isInternalLink) {
 			event.preventDefault();
 			scrollToSection(event, linkUrl);
