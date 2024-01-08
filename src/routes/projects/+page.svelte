@@ -5,9 +5,8 @@
 	export let data: PageData;
 </script>
 
-<section id="projects" class="flex flex-col max-w-screen-lg mx-auto p-4 w-full">
-	<h2 class="text-4xl">Projects</h2>
-	<hr class="my-2 mb-4" />
+<section id="projects" class="flex flex-col max-w-screen-lg mx-auto mt-20 p-4 w-full">
+	<h1 class="h1 my-8">Projects</h1>
 	<ul class="grid lg:grid-cols-2 grid-cols-1 gap-8 w-full">
 		<li class="flex items-stretch">
 			<ProjectCard
