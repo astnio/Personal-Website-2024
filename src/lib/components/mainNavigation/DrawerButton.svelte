@@ -3,7 +3,6 @@
 
 	function drawerOpen(): void {
 		drawerState.update((state: boolean) => !state);
-		console.log(drawerState);
 	}
 </script>
 

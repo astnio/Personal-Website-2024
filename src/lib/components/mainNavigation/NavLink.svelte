@@ -22,8 +22,8 @@
 		if (isInternalLink) {
 			event.preventDefault();
 			scrollToSection(event, linkUrl);
-			handleClose();
 		}
+		handleClose();
 	}
 </script>
 

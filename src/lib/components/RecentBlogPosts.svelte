@@ -9,9 +9,6 @@
 		if (response.ok) {
 			feedData = await response.json();
 			recentPosts = feedData?.items.slice(0, 3);
-
-			console.log(feedData);
-			console.log(recentPosts);
 		}
 	});
 
