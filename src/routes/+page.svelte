@@ -1,7 +1,7 @@
 <script lang="ts">
 	import { onMount } from 'svelte';
 	import { initializeStores, setModeCurrent } from '@skeletonlabs/skeleton';
-	import Hero from '../lib/components/Hero/Hero.svelte';
+	import Hero from '$lib/components/heroPage/Hero.svelte';
 
 	initializeStores();
 

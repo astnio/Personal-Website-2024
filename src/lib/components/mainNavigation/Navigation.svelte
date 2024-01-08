@@ -1,5 +1,5 @@
 <script lang="ts">
-	import LinkButton from '../Hero/LinkButton.svelte';
+	import LinkButton from '../LinkButton.svelte';
 	import NavLink from './NavLink.svelte';
 </script>
 

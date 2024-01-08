@@ -3,7 +3,7 @@
 	import '../app.css';
 	import 'boxicons/css/boxicons.min.css';
 	import NavBar from '$lib/components/mainNavigation/NavBar.svelte';
-	import FooterBar from '$lib/components/mainNavigation/FooterBar.svelte';
+	import FooterBar from '$lib/components/FooterBar.svelte';
 	import NavigationDrawer from '$lib/components/mainNavigation/NavigationDrawer.svelte';
 </script>
 

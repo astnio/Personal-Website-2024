@@ -1,5 +1,5 @@
 <script>
-	import LinkButton from './LinkButton.svelte';
+	import LinkButton from '../LinkButton.svelte';
 </script>
 
 <ul class="flex flex-wrap gap-2 sm:flex-row flex-col items-center sm:items-start w-full">

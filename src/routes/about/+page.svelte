@@ -1,17 +1,11 @@
 <script lang="ts">
 	import BlogPost from '$lib/components/BlogPost.svelte';
-	import type { PageData } from './$types';
-
-	export let data: PageData;
 </script>
 
 <div class="flex flex-col items-start justify-start gap-20 mt-20">
 	<section id="about" class="flex flex-col max-w-screen-lg mx-auto justify-center p-4">
 		<h1 class="h1 my-8">About</h1>
 		<div class="flex md:block flex-col-reverse md:gap-8 gap-2 items-start">
-			<!-- <div class="float-right md:ml-8 mt-8 md:mt-0">
-				<LinkedInBadge />
-			</div> -->
 			<div class="md:block flex flex-col">
 				<p>
 					I'm a web development enthusiast with a particular knack for design, currently working
