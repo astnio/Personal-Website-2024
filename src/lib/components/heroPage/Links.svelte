@@ -4,7 +4,7 @@
 
 <ul class="flex flex-wrap gap-2 sm:flex-row flex-col items-center sm:items-start w-full">
 	<li class="w-full sm:w-auto">
-		<LinkButton linkUrl="#projects" newTab={false} iconClass="bx bx-code-alt">Projects</LinkButton>
+		<LinkButton linkUrl="/projects" newTab={false} iconClass="bx bx-code-alt">Projects</LinkButton>
 	</li>
 
 	<li class="w-full sm:w-auto">
