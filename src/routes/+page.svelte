@@ -1,12 +1,9 @@
 <script lang="ts">
 	import { onMount } from 'svelte';
-	import { AppShell, initializeStores, setModeCurrent } from '@skeletonlabs/skeleton';
+	import { initializeStores, setModeCurrent } from '@skeletonlabs/skeleton';
 	import Hero from '../lib/components/HomeSections/Hero/Hero.svelte';
 	import About from '../lib/components/HomeSections/About/About.svelte';
 	import Projects from '../lib/components/HomeSections/Projects/Projects.svelte';
-	import NavigationDrawer from '$lib/components/Navigation/NavigationDrawer.svelte';
-	import NavBar from '$lib/components/Navigation/NavBar.svelte';
-	import FooterBar from '$lib/components/Navigation/FooterBar.svelte';
 	import NavLink from '$lib/components/Navigation/NavLink.svelte';
 	import PlaceholderPost from '$lib/components/PlaceholderPost.svelte';
 	import BlogPost from '$lib/components/BlogPost.svelte';
@@ -26,23 +23,17 @@
 	const placeHolderData: any = data.props.placeHolderData;
 </script>
 
-<NavigationDrawer />
+<div class="flex flex-col items-start justify-start gap-20 mt-8">
+	<Hero />
+	<About />
+	<Projects />
+	<PlaceholderPost postData={placeHolderData} />
+	<BlogPost />
 
-<AppShell slotSidebarRight="bg-surface-500/5" scrollbarGutter="auto">
-	<NavBar />
-	<div class="flex flex-col items-start justify-start gap-20 mt-8">
-		<Hero />
-		<About />
-		<Projects />
-		<PlaceholderPost postData={placeHolderData} />
-		<BlogPost />
-
-		<div
-			class="flex items-center justify-center mx-auto w-8 h-8 p-6 aspect-square mb-16 mt-32 rounded-full bg-surface-500 bg-opacity-20"
-			title="Back to top"
-		>
-			<NavLink linkUrl="home" iconClass="bx bxs-chevrons-up text-4xl  opacity-60" />
-		</div>
+	<div
+		class="flex items-center justify-center mx-auto w-8 h-8 p-6 aspect-square mb-16 mt-32 rounded-full bg-surface-500 bg-opacity-20"
+		title="Back to top"
+	>
+		<NavLink linkUrl="home" iconClass="bx bxs-chevrons-up text-4xl  opacity-60" />
 	</div>
-	<FooterBar />
-</AppShell>
+</div>

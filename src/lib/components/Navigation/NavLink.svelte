@@ -4,6 +4,7 @@
 	export let linkUrl: string;
 	export let title: string = '';
 	export let iconClass: string = '';
+	const isInternalLink: boolean = linkUrl.split('').some((linkChar) => linkChar === '#');
 
 	function handleClose() {
 		drawerState.set(false);
@@ -16,16 +17,19 @@
 			console.warn(`Section with id ${sectionId} not found`);
 		} else section.scrollIntoView({ behavior: 'smooth' });
 	}
+
+	function handleClick(event: MouseEvent): void {
+		console.log('linkUrl', linkUrl);
+		console.log('isExternalLink', isInternalLink);
+		if (isInternalLink) {
+			event.preventDefault();
+			scrollToSection(event, linkUrl);
+			handleClose();
+		}
+	}
 </script>
 
-<a
-	href={`#${linkUrl}`}
-	on:click|preventDefault={(event) => {
-		scrollToSection(event, linkUrl);
-		handleClose();
-	}}
-	class="flex items-center justify-center w-full"
->
+<a href={`${linkUrl}`} on:click={handleClick} class="flex items-center justify-center w-full">
 	{#if iconClass}
 		<span class={iconClass}></span>
 	{/if}

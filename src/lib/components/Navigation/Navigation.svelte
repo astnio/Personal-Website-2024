@@ -6,13 +6,13 @@
 <nav class="list-nav p-4 flex flex-col flex-grow">
 	<ul class="flex flex-col md:flex-row items-baseline h-full md:h-auto">
 		<li class="w-full md:w-auto">
-			<NavLink linkUrl="home" title="Home" />
+			<NavLink linkUrl="/" title="Home" />
 		</li>
 		<li class="w-full md:w-auto">
-			<NavLink linkUrl="about" title="About" />
+			<NavLink linkUrl="/about" title="About" />
 		</li>
 		<li class="w-full md:w-auto">
-			<NavLink linkUrl="projects" title="Projects" />
+			<NavLink linkUrl="#projects" title="Projects" />
 		</li>
 		<li class="w-full md:w-auto ml-2" style="margin-top: auto;">
 			<LinkButton
