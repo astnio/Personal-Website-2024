@@ -1,6 +1,9 @@
-import { c as create_ssr_component, v as validate_component } from "../../../chunks/ssr.js";
+import { c as create_ssr_component, n as each, v as validate_component } from "../../../chunks/ssr.js";
+const placeHolderSections = 3;
 const RecentBlogPosts = create_ssr_component(($$result, $$props, $$bindings, slots) => {
-  return `${`<p data-svelte-h="svelte-qdsr2u">Loading...</p>`}`;
+  return `<div class="flex flex-col mx-auto max-w-screen-lg gap-8 min-w-full"><h2 class="h2" data-svelte-h="svelte-1ef1f45">Recent Blog Posts</h2> ${`${each(Array(placeHolderSections), (_, i) => {
+    return `<section class="card grid-cols-2 p-4 lg:min-w-[1024px] md:min-w-[768px] sm:min-w-[640px]" data-svelte-h="svelte-1c1fnip"><div class="placeholder circle w-32 h-32 col-span-2 animate-pulse"></div> <div class="grid p-4 space-y-4"><div class="placeholder animate-pulse"></div> <div class="grid grid-cols-3 gap-8"><div class="placeholder animate-pulse"></div> <div class="placeholder animate-pulse"></div> <div class="placeholder animate-pulse"></div></div> <div class="grid grid-cols-4 gap-4"><div class="placeholder animate-pulse"></div> <div class="placeholder animate-pulse"></div> <div class="placeholder animate-pulse"></div> <div class="placeholder animate-pulse"></div> </div></div> </section>`;
+  })}`}</div>`;
 });
 const Page = create_ssr_component(($$result, $$props, $$bindings, slots) => {
   return `<div class="flex flex-col items-start justify-start gap-20 mt-20"><section id="about" class="flex flex-col max-w-screen-lg mx-auto justify-center p-4" data-svelte-h="svelte-1ploocg"><h1 class="h1 my-8">About</h1> <div class="flex md:block flex-col-reverse md:gap-8 gap-2 items-start"><div class="md:block flex flex-col"><p>I&#39;m a web development enthusiast with a particular knack for design, currently working

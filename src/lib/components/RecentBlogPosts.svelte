@@ -54,7 +54,7 @@
 						<h3 class="h3">{post.title}</h3>
 						<span class="badge variant-ringed w-fit py-2 px-4">{formatDate(post.pubDate)}</span>
 					</div>
-					<p class="line-clamp-2">{post.contentSnippet}</p>
+					<p class="sm:line-clamp-2 line-clamp-4">{post.contentSnippet}</p>
 					<a class="btn variant-ghost w-fit mt-4" href={post.link} target="_blank">Read more</a>
 				</div>
 			</article>
