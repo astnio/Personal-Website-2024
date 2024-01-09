@@ -326,9 +326,9 @@ const NavigationDrawer = create_ssr_component(($$result, $$props, $$bindings, sl
   })}`;
 });
 const Layout = create_ssr_component(($$result, $$props, $$bindings, slots) => {
-  return `${validate_component(NavigationDrawer, "NavigationDrawer").$$render($$result, {}, {}, {})} ${validate_component(AppShell, "AppShell").$$render($$result, { scrollbarGutter: "auto" }, {}, {
+  return `<div class="drawerTouchController">${validate_component(NavigationDrawer, "NavigationDrawer").$$render($$result, {}, {}, {})}</div> ${validate_component(AppShell, "AppShell").$$render($$result, { scrollbarGutter: "auto" }, {}, {
     default: () => {
-      return `<div class="flex flex-col justify-between h-full">${validate_component(NavBar, "NavBar").$$render($$result, {}, {}, {})} ${slots.default ? slots.default({}) : ``} ${validate_component(FooterBar, "FooterBar").$$render($$result, {}, {}, {})}</div>`;
+      return `<div class="flex flex-col justify-between h-full drawerTouchController">${validate_component(NavBar, "NavBar").$$render($$result, {}, {}, {})} ${slots.default ? slots.default({}) : ``} ${validate_component(FooterBar, "FooterBar").$$render($$result, {}, {}, {})}</div>`;
     }
   })}`;
 });
