@@ -259,7 +259,7 @@ const LightSwitch = create_ssr_component(($$result, $$props, $$bindings, slots) 
 });
 const drawerState = writable(false);
 const DrawerButton = create_ssr_component(($$result, $$props, $$bindings, slots) => {
-  return `<div class="flex items-center md:hidden"><button class="btn btn-sm mr-4" data-svelte-h="svelte-3lxydg"><span class="bx bx-menu text-2xl"></span></button></div>`;
+  return `<div class="flex items-center md:hidden"><button class="btn btn-sm mr-4" data-svelte-h="svelte-7dwn7i"><span class="bx bx-menu text-4xl"></span></button></div>`;
 });
 const AHLogoSVG = create_ssr_component(($$result, $$props, $$bindings, slots) => {
   return `<svg id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 227.48 156.88" class="fill-current"><defs><style>.cls-1 {
