@@ -19,10 +19,10 @@
 				linkUrl="mailto:hello@msg.austinh.io"
 				iconClass="bx bxs-envelope"
 				newTab={false}
-				buttonVariant="ghost"
+				buttonVariant="soft-primary"
 				buttonClass="btn-sm"
 			>
-				<span class="semibold">Contact</span>
+				<span class="font-semibold sm:text-base text-lg tracking-wide">Contact</span>
 			</LinkButton>
 		</li>
 	</ul>

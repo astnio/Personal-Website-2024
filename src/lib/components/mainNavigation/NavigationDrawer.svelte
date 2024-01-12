@@ -31,7 +31,7 @@
 		<h2
 			class="flex items-center justify-center p-4 cursor-default w-full uppercase tracking-wider text-primary-300/600 dark:bg-surface-700 bg-surface-200"
 		>
-			Navigation
+			<span class="opacity-60 text-xl tracking-widest font-light">Navigation</span>
 		</h2>
 		<hr />
 		<div class="flex flex-grow w-full">
