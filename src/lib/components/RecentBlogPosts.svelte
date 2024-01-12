@@ -55,7 +55,9 @@
 						<span class="badge variant-soft w-fit opacity-80">{formatDate(post.pubDate)}</span>
 					</div>
 					<p class="sm:line-clamp-2 line-clamp-4">{post.contentSnippet}</p>
-					<a class="btn variant-ghost w-fit mt-4" href={post.link} target="_blank">Read more</a>
+					<a class="btn variant-ghost-primary w-fit mt-4" href={post.link} target="_blank"
+						>Read more</a
+					>
 				</div>
 			</article>
 		{/each}

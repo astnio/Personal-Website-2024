@@ -25,21 +25,21 @@
 		<header class="card-header flex flex-col">
 			<span class="flex flex-wrap md:text-2xl text-xl font-semibold">{title}</span>
 			{#if date}
-				<span class="badge variant-ringed text-sm w-fit px-4 mt-2">{date}</span>
+				<span class="badge variant-soft opacity-80 text-sm w-fit px-4 mt-2">{date}</span>
 			{/if}
 		</header>
 		<section class="flex flex-col p-4 justify-between h-full">
 			<p>{description}</p>
 			<nav class="list-nav flex flex-wrap my-4 gap-4">
 				{#if gitHubLink}
-					<a href={gitHubLink} target="_blank" class="btn variant-ghost">
-						<span class=" bx bxl-github text-lg"></span>
+					<a href={gitHubLink} target="_blank" class="btn variant-ghost-primary">
+						<span class="bx bxl-github text-2xl"></span>
 						<span>GitHub</span>
 					</a>
 				{/if}
 				{#if demoLink}
-					<a href={demoLink} target="_blank" class="btn variant-ghost">
-						<span class=" bx bx-play text-lg"></span>
+					<a href={demoLink} target="_blank" class="btn variant-ghost-primary">
+						<span class="bx bx-play text-2xl"></span>
 						<span>Demo</span>
 					</a>
 				{/if}
@@ -47,7 +47,7 @@
 		</section>
 		<footer class="card-footer flex flex-wrap gap-2">
 			{#each tags as tag}
-				<span class="badge variant-filled">{tag}</span>
+				<span class="badge variant-soft-primary">{tag}</span>
 			{/each}
 		</footer>
 	</div>
