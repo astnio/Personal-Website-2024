@@ -50,9 +50,9 @@
 				</div>
 
 				<div class="flex flex-auto flex-col gap-2 justify-between p-4">
-					<div class="flex flex-auto gap-4 flex-wrap">
+					<div class="flex flex-auto gap-4 flex-wrap items-center justify-between">
 						<h3 class="h3">{post.title}</h3>
-						<span class="badge variant-ringed w-fit py-2 px-4">{formatDate(post.pubDate)}</span>
+						<span class="badge w-fit py-2 px-4 opacity-80">{formatDate(post.pubDate)}</span>
 					</div>
 					<p class="sm:line-clamp-2 line-clamp-4">{post.contentSnippet}</p>
 					<a class="btn variant-ghost w-fit mt-4" href={post.link} target="_blank">Read more</a>
