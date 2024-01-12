@@ -3,8 +3,8 @@
 	import NavLink from './NavLink.svelte';
 </script>
 
-<nav class="list-nav p-4 flex flex-col flex-grow">
-	<ul class="flex flex-col md:flex-row items-baseline h-full md:h-auto">
+<nav class="list-nav p-4 flex flex-col flex-grow items-center w-full">
+	<ul class="flex flex-col md:flex-row md:items-baseline items-center h-full md:h-auto w-full">
 		<li class="w-full md:w-auto">
 			<NavLink linkUrl="/" title="Home" />
 		</li>
