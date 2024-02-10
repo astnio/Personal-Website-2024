@@ -28,12 +28,12 @@
 		</li>
 		<li class="flex items-stretch">
 			<ProjectCard
-				title="Simple Ecommerce Frontend"
-				description="The frontend mockup of an ecommerce site. Made with vanilla JavaScript, CSS, and HTML."
-				date="Aug 2023 - Dec 2023"
-				gitHubLink="https://github.com/austinh-io/Simple-Ecommerce-Frontend"
+				title="TypeScript E-Commerce Frontend"
+				description="The frontend mockup of an e-commerce site. Made with just TypeScript, CSS/HTML, and Vite."
+				date="Aug 2023 - Feb 2024"
+				gitHubLink="https://github.com/austinh-io/ts-e-commerce-frontend"
 				demoLink="https://projects.austinh.io/simple-ecom/"
-				tags={['HTML', 'CSS', 'JavaScript']}
+				tags={['HTML', 'CSS', 'TypeScript']}
 				imageSource="./images/simple_ecom.png"
 			/>
 		</li>
