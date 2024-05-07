@@ -19,10 +19,10 @@
 			<Links />
 
 			<div class="flex items-center md:justify-start justify-center mt-8 gap-4">
-				<SocialLink linkUrl="https://i.austinh.io/github/" iconClass="bx bxl-github" />
-				<SocialLink linkUrl="https://i.austinh.io/linkedin/" iconClass="bx bxl-linkedin-square" />
-				<!-- <SocialLink linkUrl="https://i.austinh.io/instagram/" iconClass="bx bxl-instagram-alt" /> -->
-				<!-- <SocialLink linkUrl="https://i.austinh.io/youtube-dev/" iconClass="bx bxl-youtube" /> -->
+				<SocialLink linkUrl="https://astn.sh/github/" iconClass="bx bxl-github" />
+				<SocialLink linkUrl="https://astn.sh/linkedin/" iconClass="bx bxl-linkedin-square" />
+				<!-- <SocialLink linkUrl="https://astn.sh/instagram/" iconClass="bx bxl-instagram-alt" /> -->
+				<!-- <SocialLink linkUrl="https://astn.sh/yt-dev/" iconClass="bx bxl-youtube" /> -->
 				<!-- <SocialLink linkUrl="#" iconClass="bx bxl-mastodon" /> -->
 			</div>
 		</div>

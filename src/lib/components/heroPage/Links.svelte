@@ -8,12 +8,12 @@
 	</li>
 
 	<li class="w-full sm:w-auto">
-		<LinkButton linkUrl="https://byaustin.net/" iconClass="bx bx-book-content">Blog</LinkButton>
+		<LinkButton linkUrl="https://astn.sh/blog" iconClass="bx bx-book-content">Blog</LinkButton>
 	</li>
 
 	<!-- <li class="w-full sm:w-auto">
 		<LinkButton
-			linkUrl="https://i.austinh.io/hackerrank/"
+			linkUrl="https://astn.sh/hackerrank/"
 			newTab={true}
 			iconClass="bx bx-code-block"
 			>HackerRank
@@ -21,13 +21,13 @@
 	</li> -->
 
 	<!-- <li class="w-full sm:w-auto">
-		<LinkButton linkUrl="https://i.austinh.io/leetcode/" newTab={true} iconClass="bx bx-code-curly"
+		<LinkButton linkUrl="https://astn.sh/leetcode/" newTab={true} iconClass="bx bx-code-curly"
 			>LeetCode
 		</LinkButton>
 	</li> -->
 
 	<!-- <li class="w-full sm:w-auto">
-		<LinkButton linkUrl="https://i.austinh.io/codepen/" newTab={true} iconClass="bx bxl-codepen"
+		<LinkButton linkUrl="https://astn.sh/codepen/" newTab={true} iconClass="bx bxl-codepen"
 			>CodePen</LinkButton
 		>
 	</li> -->
