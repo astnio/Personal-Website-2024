@@ -48,6 +48,17 @@
 				imageSource="./images/simple_ecom.png"
 			/>
 		</li>
+		<li class="flex items-stretch">
+			<ProjectCard
+				title="JavaScript Simple WordGuess"
+				description="A basic game to guess the word, made in just HTML and JavaScript."
+				date="Jul 2023"
+				gitHubLink="https://astn.sh/gh-js-simple-wordguess"
+				demoLink="https://astn.sh/js-simple-wordguess"
+				tags={['HTML', 'CSS', 'JavaScript']}
+				imageSource="./images/js-wordguess1.png"
+			/>
+		</li>
 	</ul>
 	<slot />
 </section>
