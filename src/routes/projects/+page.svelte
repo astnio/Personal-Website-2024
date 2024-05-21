@@ -59,6 +59,28 @@
 				imageSource="./images/js-wordguess1.png"
 			/>
 		</li>
+		<li class="flex items-stretch">
+			<ProjectCard
+				title="Personal Site 2023"
+				description="The second iteration of my personal website."
+				date="2023"
+				gitHubLink="https://astn.sh/gh-personal-site-2023"
+				demoLink="https://astn.sh/personal-site-2023"
+				tags={['HTML', 'CSS']}
+				imageSource="./images/personal-site-2023.png"
+			/>
+		</li>
+		<li class="flex items-stretch">
+			<ProjectCard
+				title="Personal Site 2022"
+				description="My first public version of my personal website."
+				date="2022"
+				gitHubLink="https://astn.sh/gh-personal-site-2022"
+				demoLink="https://astn.sh/personal-site-2022"
+				tags={['HTML', 'CSS']}
+				imageSource="./images/personal-site-2022.png"
+			/>
+		</li>
 	</ul>
 	<slot />
 </section>
