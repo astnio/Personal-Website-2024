@@ -11,7 +11,9 @@
 				description="A remake of my JavaScript E-commerce shop mockup, now with Vite!"
 				date="Feb 2024 - Present"
 				gitHubLink="https://astn.sh/gh-ts-simple-e-com"
+				demoLink="https://astn.sh/ts-simple-e-com"
 				tags={['TypeScript', 'Vite', 'HTML/CSS']}
+				imageSource="./images/ts-e-com.png"
 			/>
 		</li>
 		<li class="flex items-stretch">
