@@ -81,6 +81,17 @@
 				imageSource="./images/personal-site-2022.png"
 			/>
 		</li>
+		<li class="flex items-stretch">
+			<ProjectCard
+				title="Simple E-commerce Store 2021"
+				description="One of my first attempts at making a website, and an e-commerce site at that."
+				date="2021"
+				gitHubLink="https://astn.sh/gh-js-simple-e-com-2021"
+				demoLink="https://astn.sh/js-simple-e-com-2021"
+				tags={['HTML', 'CSS']}
+				imageSource="./images/js-simple-e-com-2021.png"
+			/>
+		</li>
 	</ul>
 	<slot />
 </section>
