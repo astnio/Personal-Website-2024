@@ -9,7 +9,7 @@
 			<ProjectCard
 				title="TypeScript E-Commerce Frontend"
 				description="A remake of my JavaScript E-commerce shop mockup, now with Vite!"
-				date="Feb 2024 - Present"
+				date="Feb 2024"
 				gitHubLink="https://astn.sh/gh-ts-simple-e-com"
 				demoLink="https://astn.sh/ts-simple-e-com"
 				tags={['TypeScript', 'Vite', 'HTML/CSS']}
@@ -19,8 +19,8 @@
 		<li class="flex items-stretch">
 			<ProjectCard
 				title="Personal Website (2024)"
-				description="My personal website, the very one you are at right now! Made using SvelteKit, Skeleton UI + Tailwind, and TypeScript."
-				date="Dec 2023 - Present"
+				description="My personal website, the very one you are at right now!"
+				date="Dec 2023"
 				gitHubLink="https://astn.sh/gh-personal-site-2024"
 				tags={['SvelteKit', 'Skeleton', 'Tailwind', 'TypeScript']}
 				imageSource="./images/personal_website.png"
@@ -28,9 +28,9 @@
 		</li>
 		<li class="flex items-stretch">
 			<ProjectCard
-				title="React-TypeScript-Tailwind (RTT) WordGuess Game"
-				description="This is another WordGuess game, this time made with React, TypeScript, and Tailwind."
-				date="Dec 2023 - Jan 2024"
+				title="WordGuess Game (React)"
+				description="A game where you guess a letter to find the word. Fetches a random word from an API and uses Framer Motion for some animation when changing pages."
+				date="Dec 2023"
 				gitHubLink="https://astn.sh/gh-rtt-wordguess"
 				demoLink="https://astn.sh/rtt-wordguess"
 				tags={['React', 'Tailwind', 'TypeScript', 'Framer Motion']}
@@ -41,7 +41,7 @@
 			<ProjectCard
 				title="JavaScript E-Commerce Frontend"
 				description="The frontend mockup of an e-commerce site. Made with just JavaScript and CSS/HTML."
-				date="Aug 2023 - Feb 2024"
+				date="Aug 2023"
 				gitHubLink="https://astn.sh/gh-js-simple-e-com"
 				demoLink="https://astn.sh/js-simple-e-com"
 				tags={['HTML', 'CSS', 'JavaScript']}
@@ -50,8 +50,8 @@
 		</li>
 		<li class="flex items-stretch">
 			<ProjectCard
-				title="JavaScript Simple WordGuess"
-				description="A basic game to guess the word, made in just HTML and JavaScript."
+				title="WordGuess Game (JavaScript)"
+				description="A basic game to guess the word, made in just HTML and JavaScript. Just uses a small list of words from a local JSON file."
 				date="Jul 2023"
 				gitHubLink="https://astn.sh/gh-js-simple-wordguess"
 				demoLink="https://astn.sh/js-simple-wordguess"
@@ -61,9 +61,9 @@
 		</li>
 		<li class="flex items-stretch">
 			<ProjectCard
-				title="Personal Site 2023"
+				title="Personal Website (2023)"
 				description="The second iteration of my personal website."
-				date="2023"
+				date="May 2023"
 				gitHubLink="https://astn.sh/gh-personal-site-2023"
 				demoLink="https://astn.sh/personal-site-2023"
 				tags={['HTML', 'CSS']}
@@ -72,9 +72,9 @@
 		</li>
 		<li class="flex items-stretch">
 			<ProjectCard
-				title="Personal Site 2022"
-				description="My first public version of my personal website."
-				date="2022"
+				title="Personal Website (2022)"
+				description="My first public version of my own personal website."
+				date="Feb 2022"
 				gitHubLink="https://astn.sh/gh-personal-site-2022"
 				demoLink="https://astn.sh/personal-site-2022"
 				tags={['HTML', 'CSS']}
@@ -83,9 +83,9 @@
 		</li>
 		<li class="flex items-stretch">
 			<ProjectCard
-				title="Simple E-commerce Frontend 2021"
+				title="Simple E-Commerce Frontend 2021"
 				description="One of my first attempts at making a website, and an e-commerce site at that."
-				date="2021"
+				date="Nov 2021"
 				gitHubLink="https://astn.sh/gh-js-simple-e-com-2021"
 				demoLink="https://astn.sh/js-simple-e-com-2021"
 				tags={['HTML', 'CSS']}
