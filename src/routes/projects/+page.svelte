@@ -4,6 +4,7 @@
 
 <section id="projects" class="flex flex-col max-w-screen-lg mx-auto mt-20 p-4 w-full">
 	<h1 class="h1 my-8">Projects</h1>
+	<p>I also have some projects at <a href="https://frontendmentor.io">Frontend Mentor</a></p>. You can view my profile and projects I have done with them <a href="https://astn.sh/frontend-mentor">here</a>.
 	<ul class="grid lg:grid-cols-2 grid-cols-1 gap-8 w-full">
 		<li class="flex items-stretch">
 			<ProjectCard
