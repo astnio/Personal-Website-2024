@@ -8,7 +8,8 @@
 >
 	<div class="p-4">
 		<span class="flex items-center justify-center w-10">
-			<AhLogoSvg />
+			<!-- <AhLogoSvg /> -->
+			<p class="font-serif text-4xl">astn</p>
 		</span>
 	</div>
 </a>

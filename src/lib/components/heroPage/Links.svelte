@@ -8,7 +8,25 @@
 	</li>
 
 	<li class="w-full sm:w-auto">
-		<LinkButton linkUrl="https://astn.sh/blog" iconClass="bx bx-book-content">Blog</LinkButton>
+		<LinkButton linkUrl="https://astn.sh/blog" iconClass="bx bxs-message-square-dots"
+			>Blog</LinkButton
+		>
+	</li>
+
+	<li class="w-full sm:w-auto">
+		<LinkButton linkUrl="https://astn.sh/blog" iconClass="bx bxl-github">Github</LinkButton>
+	</li>
+
+	<li class="w-full sm:w-auto">
+		<LinkButton linkUrl="https://astn.sh/blog" iconClass="bx bxl-linkedin-square"
+			>LinkedIn</LinkButton
+		>
+	</li>
+
+	<li class="w-full sm:w-auto">
+		<LinkButton linkUrl="https://astn.sh/blog" iconClass="bx bx-code-block"
+			>Frontend Mentor</LinkButton
+		>
 	</li>
 
 	<!-- <li class="w-full sm:w-auto">
