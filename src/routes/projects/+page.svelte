@@ -4,15 +4,18 @@
 
 <section id="projects" class="flex flex-col max-w-screen-lg mx-auto mt-20 p-4 w-full">
 	<h1 class="h1 my-8">Projects</h1>
-	<p class="flex w-full mb-8">
+	<p class="mb-8">
 		I also have some projects at&nbsp;<a
 			class="underline"
 			href="https://frontendmentor.io"
 			target="_blank">Frontend Mentor</a
 		>
 
-		. You can view my profile and projects I have done with them&nbsp;
-		<a class="underline" href="https://astn.sh/frontend-mentor" target="_blank">here</a>.
+		. You can
+		<a class="underline" href="https://astn.sh/frontend-mentor" target="_blank"
+			>view my profile and projects</a
+		>
+		I have done with them.
 	</p>
 	<ul class="grid lg:grid-cols-2 grid-cols-1 gap-8 w-full">
 		<li class="flex items-stretch">

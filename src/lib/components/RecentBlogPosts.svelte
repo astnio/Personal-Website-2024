@@ -41,13 +41,15 @@
 			<article
 				class="flex flex-col md:flex-row flex-wrap md:flex-nowrap bg-surface-200 dark:bg-surface-800 rounded-md bg-opacity-60 dark:bg-opacity-40 overflow-hidden"
 			>
-				<div class="flex grow aspect-video">
-					<img
-						src={extractImageDetails(post.content).src}
-						alt={extractImageDetails(post.content).alt}
-						class="object-cover h-full w-auto dark:opacity-60 opacity-80"
-					/>
-				</div>
+				{#if extractImageDetails(post.content).src}
+					<div class="flex grow aspect-video">
+						<img
+							src={extractImageDetails(post.content).src}
+							alt={extractImageDetails(post.content).alt}
+							class="object-cover h-full w-auto dark:opacity-60 opacity-80"
+						/>
+					</div>
+				{/if}
 
 				<div class="flex flex-auto flex-col gap-2 justify-between p-4">
 					<div class="flex flex-auto gap-4 flex-wrap items-center justify-between mb-4">
